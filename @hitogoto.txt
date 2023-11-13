@@ -1,0 +1,1392 @@
+BW-109 (230722): 较易, AB(CD)
+SW-355 (230723, 大暑, 上海衍复投资): 较难, A(BCD)
+
+
+>> [146-M] https://leetcode.com/problems/lru-cache/description/
+230718:
+Python的简洁做法是用collections.SortedDict
+本质是结合双向链表和哈希表
+需要注意的是每一次get和put操作之后, order都会发生变化
+比如: new LRUCache(2)
+put(1, 1) => cache is {1=1}
+put(2, 2) => cache is {1=1, 2=2}
+get(1) => return 1 ({2=2, 1=1})
+put(3, 3) => LRU key was 2, evicts key 2, cache is {1=1, 3=3}
+get(2) => returns -1
+put(4, 4) => LRU key was 1, evicts key 1, cache is {3=3, 4=4}
+(注意这里Example 1的解释有误: "cache is {4=4, 3=3}" (应该是{3=3, 4=4}))
+==========
+>> [1851-H] https://leetcode.com/problems/minimum-interval-to-include-each-query/description/
+230718:
+排序 (离线查询) + 优先队列(小根堆)
+并查集
+线段树 (可以用于在线查询, 动态开点线段树、zkw线段树 (张昆玮) (出自《统计的力量》 ppt, 2013)
+树状数组 (用于离线查询)
+扫描线
+sortedcontainers.SortedList
+==========
+>> [435-M] https://leetcode.com/problems/non-overlapping-intervals/
+230719:
+被用作面试题
+贪心+二分查找 O(nlog(n))
+动规 O(n^2) TLE
+本质: 最长上升子序列 (LIS) (Longest Increasing Subsequence)
+https://leetcode.cn/problems/longest-increasing-subsequence/
+==========
+>> [874-M] https://leetcode.com/problems/walking-robot-simulation/
+230719:
+直接模拟
+==========
+>> [735-M] https://leetcode.cn/problems/asteroid-collision/
+230720:
+栈模拟
+==========
+>> [110-E] https://leetcode.com/problems/balanced-binary-tree/
+230720:
+递归
+==========
+>> [1499-H] https://leetcode.com/problems/max-value-of-equation/
+230721:
+单调队列
+优先队列
+滑动窗口
+红黑树
+线段树
+==========
+>> [673-M] https://leetcode.com/problems/number-of-longest-increasing-subsequence/
+230721:
+DP
+==========
+>> 230722:
+--------
+[688-M] https://leetcode.com/problems/knight-probability-in-chessboard/
+DP
+==========
+[860-E] https://leetcode.com/problems/lemonade-change/
+贪心. 尽可能先找10元, 再找5元.
+==========
+[2784-E] https://leetcode.com/problems/check-if-array-is-good/
+判断一个数组是否为给定数组的排列.
+排序
+==========
+[2785-M] https://leetcode.com/problems/sort-vowels-in-a-string/
+给定字符串, 辅音字母位置不变, 元音字母按ASCII值升序排列.
+'i' in 'aeiou'的速度和'i' in {'a', 'e', 'i', 'o', 'u'}的速度基本相同, 前者略慢, 均明显快于array.
+模拟
+==========
+>> 230723:
+-----------
+[894-M] https://leetcode.com/problems/all-possible-full-binary-trees/
+构造有n个结点且值均为0的正则二叉树 (每个结点有0个或2个子结点的树).
+递归+记忆化 (recursion+memoization, top-down DP)
+动态规划 (DP, bottom-up DP)
+n-th Catalan number is bounded by 2^(n/2)
+C_k是有k+1的叶结点或者k个内部结点的FBT的数目.
+当然也是有合计2k+1个结点的FBT的数目.
+对于本题, 设n=2k+1, 则|FBT(n)|=C_k, 也就是第k个Catalan数.
+
+(2k)!          sqrt(pi)*4^k 
+-------  ~  ------------
+(k+1)!k!          k^(3/2)
+
+4^(n/2)               2^n
+------------ => --------
+(n/2)^(3/2)       n^(3/2)
+
+Full Binary Tree / Strictly Binary Tree (完满二叉树 / 真二叉树 / 严格二叉树 / 正则二叉树)
+Complete Binary Tree (Binary Heap) (完全二叉树)
+Perfect Binary Tree (完美二叉树 / 满二叉树)
+Balanced Binary Tree (平衡二叉树)
+Huffman树 (哈夫曼树、最优二叉树, 1952)
+binary search tree (二叉搜索树, 1960)
+trie (字典树, 1960)
+AVL树 (苏联Adelson-Velsky和Landis两个人发表的数据结构, 1962)
+B树 (Bayer树, 1970)
+B+树 (from 1973, 常用于操作系统文件和数据库索引)
+2-3树 (1970)
+Red-Black树 (红黑树, 1972)
+splay树 (伸展树, 1985)
+scapegoat树 (替罪羊树, 1989)
+treap (树堆, 1989)
+AA树 (Arne Andersson, 1993)
+tango树 (2004)
+
+国内一般可以称满二叉树、完全二叉树、严格二叉树
+
+https://www.cnblogs.com/idorax/p/6441043.html
+
+完全二叉树:
+除去最底层结点后的二叉树是一棵[满二叉树/完美二叉树],且最底层结点均靠左对齐的二叉树
+==========
+[112-E] https://leetcode.com/problems/path-sum/
+判断二叉树是否有路径和值等于给定值.
+dfs
+==========
+[2788-E] https://leetcode.com/problems/split-strings-by-separator/
+根据给定字符分隔字符串.
+Python优势, 用split
+==========
+[2789-M] https://leetcode.com/problems/largest-element-in-an-array-after-merge-operations/
+给定数组, 前一个较小元素可以合并到后一个较大元素, 问最后最大的元素是多少?
+贪心
+==========
+[6955-H] https://leetcode.cn/problems/maximum-number-of-groups-with-increasing-length/
+贪心
+---
+FHQ树堆 (范浩强) / 无旋树堆
+另外想到: CDQ分治 (陈丹琦)、莫队算法 (莫涛)
+
+>> 230724:
+-----------
+[50-M] https://leetcode.com/problems/powx-n/
+递归
+快速幂
+TC: O(log(n))
+==========
+[118-E] https://leetcode.com/problems/pascals-triangle/
+按生成式直接计算
+
+>> 230725:
+-----------
+[852-M] https://leetcode.cn/problems/peak-index-in-a-mountain-array/
+先升后降数组的最大值位置
+二分查找 O(log(n))
+==========
+[2208-M] https://leetcode.com/problems/minimum-operations-to-halve-array-sum/
+选任意数减半使得数组和至少减半的最少次数.
+贪心, 大顶堆
+==========
+[2786-M] https://leetcode.com/problems/visit-array-positions-to-maximize-score/
+最大分数. 跳转到的元素与原元素奇偶性不同时扣除x点分数. 只能往后移动.
+DP
+
+dp[0] 最后访问元素为偶数时的分数, dp[1] 最后访问元素为奇数时的最大分数
+奇偶性相同时, dp[nums[i] & 1] + nums[i]
+奇偶性不同时, dp[nums[i] & 1 ^ 1] + nums[i] - x
+
+>> 230726:
+-----------
+[1870-M] https://leetcode.com/problems/minimum-speed-to-arrive-on-time/
+二分查找
+==========
+[2569-H] https://leetcode.com/problems/handling-sum-queries-after-update/
+位运算
+线段树
+==========
+[2787-M] https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+DP
+
+>> 230727:
+-----------
+[119-E] https://leetcode.com/problems/pascals-triangle-ii/
+返回最后一个
+==========
+[2500-E] https://leetcode.com/problems/delete-greatest-value-in-each-row/
+先对grid的行排序, 然后在zip(*grid)按列取max相加.
+==========
+[2790-H] https://leetcode.com/problems/maximum-number-of-groups-with-increasing-length/
+math
+先排序, 再遍历.
+
+>> 230728:
+-----------
+[2050-H] https://leetcode.com/problems/parallel-courses-iii/
+记忆化搜索
+==========
+[486-M] https://leetcode.com/problems/predict-the-winner/
+DP
+==========
+[2791-H] https://leetcode.com/problems/count-paths-that-can-form-a-palindrome-in-a-tree/
+记忆化搜索
+
+>> 230729:
+-----------
+[808-M] https://leetcode.com/problems/soup-servings/
+记忆化搜索+特判
+==========
+[141-E] https://leetcode.com/problems/linked-list-cycle/
+哈希表visited
+快慢指针
+
+>> 230730:
+-----------
+[2798-E] https://leetcode.com/problems/number-of-employees-who-met-the-target/
+直接模拟
+==========
+[2799-M] https://leetcode.com/problems/count-complete-subarrays-in-an-array/
+双指针
+==========
+[125-E] https://leetcode.com/problems/valid-palindrome/
+直接模拟
+注意需要.isalpha() or .isnumeric()
+==========
+[664-H] https://leetcode.com/problems/strange-printer/
+记忆化搜索
+
+>> 230731:
+-----------
+[143-M] https://leetcode.com/problems/reorder-list/
+先遍历一遍用数组记录
+==========
+[145-E] https://leetcode.com/problems/binary-tree-postorder-traversal/
+后序遍历
+==========
+[2800-M] https://leetcode.com/problems/shortest-string-that-contains-three-strings/
+1. 枚举 O(n^2)
+2. KMP O(n)
+
+>> 230801:
+[160-E] https://leetcode.com/problems/intersection-of-two-linked-lists/
+直接模拟
+==========
+[168-E] https://leetcode.com/problems/excel-sheet-column-title/
+直接模拟
+
+>> 230802:
+[822-M] https://leetcode.com/problems/card-flipping-game/
+集合
+==========
+[169-E] https://leetcode.com/problems/majority-element/
+Counter.most_common()
+==========
+[595-E] https://leetcode.com/problems/big-countries/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+df = world[(world.area >= 3000000) | (world.population >= 25000000)]
+return df[['name', 'population', 'area']]
+==========
+[1757-E] https://leetcode.com/problems/recyclable-and-low-fat-products/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+df = products[(products.low_fats == 'Y') & (products.recyclable == 'Y')]
+return df[['product_id']]
+
+>> 230803:
+[17-M] https://leetcode.cn/problems/letter-combinations-of-a-phone-number/
+哈希表 + itertools.product
+==========
+[722-M] https://leetcode.com/problems/remove-comments/
+正则表达式
+==========
+[183-E] https://leetcode.cn/problems/customers-who-never-order/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+df = customers[~customers.id.isin(orders.customerId)]
+return df[['name']].rename(columns={'name': 'Customers'})
+---
+df = customers.merge(orders, left_on='id', right_on='customerId', how='left')
+df = df[df.customerId.isna()]
+return df[['name']].rename(columns={'name': 'Customers'})
+
+>> 230804:
+[171-E] https://leetcode.com/problems/excel-sheet-column-number/
+类似26进制, 只是每一位可以取到26
+==========
+[139-M] https://leetcode.com/problems/word-break/
+记忆化搜索
+DP
+Trie
+==========
+[1148-E] https://leetcode.com/problems/article-views-i/
+df = pd.DataFrame(views[views.author_id == views.viewer_id].author_id.drop_duplicates().sort_values())
+df.columns = ['id']
+
+>> 230805:
+[202-E] https://leetcode.com/problems/happy-number/
+set()
+==========
+[95-M] https://leetcode.com/problems/unique-binary-search-trees-ii/
+记忆化搜索
+==========
+[1683-E] https://leetcode.com/problems/invalid-tweets/
+df = tweets[tweets.content.str.len() > 15]
+return df[['tweet_id']]
+==========
+[2806-E] https://leetcode.com/problems/account-balance-after-rounded-purchase/
+直接模拟
+==========
+[2807-M] https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/
+遍历
+
+>> 230806:
+[203-E] https://leetcode.com/problems/remove-linked-list-elements/
+遍历
+==========
+[205-E] https://leetcode.com/problems/isomorphic-strings/
+哈希表
+==========
+[1873-E] https://leetcode.com/problems/calculate-special-bonus/
+employees['bonus'] = employees.apply(
+	lambda x: x['salary'] if x['employee_id'] % 2 == 1 and not x['name'].startswith('M') else 0,
+	axis=1
+)
+return employees[['employee_id', 'bonus']].sort_values('employee_id')
+
+>> 230807:
+[219-E] https://leetcode.com/problems/contains-duplicate-ii/
+哈希表
+==========
+[74-M] https://leetcode.com/problems/search-a-2d-matrix/
+二分查找
+==========
+[1667-E] https://leetcode.com/problems/fix-names-in-a-table/
+users['name'] = users['name'].str[0].str.upper() + users['name'].str[1:].str.lower()
+return users.sort_values('user_id')
+==========
+[2808-M] https://leetcode.com/problems/minimum-seconds-to-equalize-a-circular-array/
+defaultdict(list)
+枚举
+
+>> 230808:
+[1749-M] https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/
+1. 前缀和
+2. DP
+==========
+[33-M] https://leetcode.com/problems/search-in-rotated-sorted-array/
+二分查找
+==========
+[1517-E] https://leetcode.com/problems/find-users-with-valid-e-mails/
+正则表达式
+return users[users['mail'].str.match(r'^[a-zA-Z][a-zA-Z0-9_.-]*\@leetcode\.com$')]
+
+>> 230809:
+[1281-E] https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
+map, reduce
+==========
+[2616-M] https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/
+二分查找
+最大最小值, 最小最大值
+==========
+[1527-E] https://leetcode.com/problems/patients-with-a-condition/
+正则表达式
+return patients[patients['conditions'].str.contains(r'\bDIAB1')]
+
+>> 230810:
+[81-M] https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
+二分查找
+==========
+[1289-H] https://leetcode.com/problems/minimum-falling-path-sum-ii/
+DP
+==========
+[177-M] https://leetcode.com/problems/nth-highest-salary/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+df = employee[['salary']].drop_duplicates()
+if len(df) < N:
+	return pd.DataFrame({f'getNthHighestSalary({N})': [None]})
+return df.sort_values('salary', ascending=False).head(N).tail(1)
+==========
+[2809-H] https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/
+DP
+
+>> 230811:
+[518-M] https://leetcode.com/problems/coin-change-ii/
+DP
+==========
+[2235-E] https://leetcode.com/problems/add-two-integers/
+可能是最简单的题
+==========
+[176-M] https://leetcode.com/problems/second-highest-salary/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+employee['salary'] = employee['salary'].drop_duplicates()
+if len(employee['salary']) < 2:
+	return pd.DataFrame({'SecondHighestSalary': [None]})
+return pd.DataFrame({'SecondHighestSalary': [employee['salary'].sort_values(ascending=False).iloc[1]]})
+==========
+[2813-H] https://leetcode.com/problems/maximum-elegance-of-a-k-length-subsequence/
+Greedy
+
+230812:
+[63-M] https://leetcode.com/problems/unique-paths-ii/
+Top-Down DP
+==========
+[383-E] https://leetcode.com/problems/ransom-note/
+Counter
+==========
+https://leetcode.com/problems/department-highest-salary/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+df = employee.merge(department, left_on='departmentId', right_on='id', how='left')
+df.rename(columns={'name_x': 'Employee', 'name_y': 'Department', 'salary': 'Salary'}, inplace=True)
+df = df[df['Salary'] == df.groupby('Department')['Salary'].transform('max')]
+
+return df[['Department', 'Employee', 'Salary']]
+
+230813:
+[2815-E] https://leetcode.com/problems/max-pair-sum-in-an-array/
+用哈希表记录每个数位对应的数字的最大值 (O(n))
+==========
+[2816-M] https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/
+以>=5为分界线
+==========
+[1002-E] https://leetcode.com/problems/find-common-characters/
+res = Counter(words[0])
+for word in words[1:]:
+	res &= Counter(word)
+
+return list(res.elements())
+==========
+[2369-M] https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/
+递归
+DP
+==========
+[178-M] https://leetcode.com/problems/rank-scores/
+scores['rank'] = scores['score'].rank(method='dense', ascending=False)
+return scores[['score', 'rank']].sort_values('score', ascending=False)
+
+230814:
+[896-E] https://leetcode.com/problems/monotonic-array/
+sorted
+==========
+[215-M] https://leetcode.com/problems/kth-largest-element-in-an-array/
+1. sort
+2. heap
+==========
+[196-E] https://leetcode.com/problems/delete-duplicate-emails/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+person.sort_values(by=['id'], inplace=True)
+person.drop_duplicates(subset=['email'], inplace=True)
+==========
+[2817-M] https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint/
+SortedList / SortedSet + bisect
+
+230815:
+[833-M] https://leetcode.com/problems/find-and-replace-in-string/
+字符串转列表后处理
+==========
+[86-M] https://leetcode.com/problems/partition-list/
+设立两个新链表及对应哨兵结点 (最简洁且TC最优)
+对原链表设立一个哨兵结点、tail结点和curr结点进行操作 (SC最优)
+直接转成两个数组处理后建立新链表
+==========
+[1795-E] https://leetcode.com/problems/rearrange-products-table/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+df = products.set_index(['product_id']).stack()
+df = df.reset_index()
+df.columns = ['product_id', 'store', 'price']
+return df
+
+df = products.melt(id_vars='product_id', var_name='store', value_name='price')
+df = df.dropna(axis=0)
+return df
+
+230816:
+[239-H] https://leetcode.com/problems/sliding-window-maximum/
+单调队列
+==========
+[1217-E] https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/
+1. 哈希表
+2. 贪心计数 (只有奇数位移到偶数位或者偶数位移到奇数位才会出现花费)
+==========
+[2082-E] https://leetcode.com/problems/the-number-of-rich-customers/
+return pd.DataFrame([store[store['amount'] > 500]['customer_id'].nunique()], columns=['rich_count'])
+
+230817:
+[2582-E] https://leetcode.com/problems/pass-the-pillow/
+到达边界后flag变量*-1
+==========
+[1175-E] https://leetcode.com/problems/prime-arrangements/
+乘法原理
+==========
+[1173-E] https://leetcode.com/problems/immediate-food-delivery-i/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+df = delivery[delivery['order_date'] == delivery['customer_pref_delivery_date']]
+cnt = df.count()['delivery_id']
+return pd.DataFrame({'immediate_percentage': [round(cnt / len(delivery) * 100, 2)]})
+
+230818:
+[1388-H] https://leetcode.com/problems/pizza-with-3n-slices/
+理解为环形数组，考虑max(dp(slices[1:]), dp(slices[:-1]))
+==========
+[1252-E] https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/
+1. 直接模拟
+2. 容斥原理
+class Solution:
+    def oddCells(self, m: int, n: int, indices: List[List[int]]) -> int:
+        rows, cols = [0]*m, [0]*n
+        for r, c in indices:
+            rows[r] ^= 1
+            cols[c] ^= 1
+
+        return (sr:=sum(rows))*n + (sc:=sum(cols))*m - 2*sr*sc
+==========
+[1907-M] https://leetcode.com/problems/count-salary-categories/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+low_cnt = (accounts['income'] < 20000).sum()
+avg_cnt = ((accounts['income'] >= 20000) & (accounts['income'] <= 50000)).sum()
+high_cnt = (accounts['income'] > 50000).sum()
+df = pd.DataFrame({
+	'category': ['Low Salary', 'Average Salary', 'High Salary'],
+	'accounts_count': [low_cnt, avg_cnt, high_cnt]
+})
+
+return df
+
+230819:
+[326-E] https://leetcode.com/problems/power-of-three/
+直接计算
+==========
+[1489-H] https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/
+1. DSU + Kruskal算法
+2. Kruskal算法连通性 + Tarjan算法
+==========
+[1741-E] https://leetcode.com/problems/find-total-time-spent-by-each-employee/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+employees['total_time'] = employees['out_time'] - employees['in_time']
+employees = employees.groupby(['event_day', 'emp_id'])['total_time'].sum().reset_index()
+return employees.rename({'event_day': 'day'}, axis=1)
+==========
+[2824-E] https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/
+直接模拟
+==========
+[2825-M] https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/
+模拟
+
+230820:
+[2826-M] https://leetcode.com/problems/sorting-three-groups/
+DP
+==========
+[2828-E] https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/
+模拟
+==========
+[2829-M] https://leetcode.com/problems/determine-the-minimum-sum-of-a-k-avoiding-array/
+贪心
+==========
+[2236-E] https://leetcode.com/problems/root-equals-sum-of-children/
+直接计算
+==========
+[1203-H] https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
+拓扑排序
+==========
+[511-E] https://leetcode.com/problems/find-total-time-spent-by-each-employee/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+df = activity.groupby(['player_id'])['event_date'].min().reset_index()
+return df.rename({'event_date': 'first_login'}, axis=1)
+==========
+[2830-M] https://leetcode.com/problems/maximize-the-profit-as-the-salesman/
+DP
+
+230821:
+[2337-M] https://leetcode.com/problems/move-pieces-to-obtain-a-string/
+双指针
+==========
+[459-E] https://leetcode.com/problems/repeated-substring-pattern/
+class Solution:
+    def repeatedSubstringPattern(self, s: str) -> bool:
+        n = len(s)
+        for i in range(1, n//2 + 1):
+            if n % i == 0 and s[:i] * (n // i) == s:
+                return True
+        
+        return False
+		
+class Solution:
+    def repeatedSubstringPattern(self, s: str) -> bool:
+		return s in (2*s)[1:-1]
+==========
+[2356-E] https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/
+df = teacher.groupby(['teacher_id'])['subject_id'].nunique().reset_index()
+return df.rename({'subject_id': 'cnt'}, axis=1)
+
+230822:
+[709-E] https://leetcode.com/problems/to-lower-case/
+s.lower()
+==========
+[849-M] https://leetcode.com/problems/maximize-distance-to-closest-person/
+模拟
+==========
+[596-E] https://leetcode.com/problems/classes-more-than-5-students/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+df = courses.groupby(['class']).size().reset_index(name='cnt')
+df = df[df['cnt'] >= 5]
+return df[['class']]
+==========
+[2831-M] https://leetcode.com/problems/find-the-longest-equal-subarray/
+Sliding Window
+
+230823:
+[767-M] https://leetcode.com/problems/reorganize-string/
+最大堆/优先队列
+==========
+[1782-H] https://leetcode.com/problems/count-pairs-of-nodes/
+哈希表 + 二分查找 or 同向双指针 or 后缀和
+==========
+[586-E] https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/
+df = orders.groupby('customer_number').size().reset_index(name='cnt')
+df = df.sort_values(by='cnt').tail(1)
+return df[['customer_number']]
+
+230824:
+[1267-M] Count Servers that Communicate
+先用哈希表分别存储每行每列的服务器数
+再分别遍历判断每个服务器所在行或列是否有服务器
+==========
+[68-H] Text Justification
+比较麻烦的模拟
+==========
+[1484-E] https://leetcode.com/problems/group-sold-products-by-the-date/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+df = activities.groupby('sell_date')['product'].agg([
+	('num_sold', 'nunique'),
+	('products', lambda x: ','.join(sorted(x.unique())))
+]).reset_index()
+return df
+
+230825:
+[1448-M] https://leetcode.com/problems/count-good-nodes-in-binary-tree/
+class Solution:
+    def goodNodes(self, root: TreeNode, mx=-inf) -> int:
+        if root is None:
+            return 0
+        left = self.goodNodes(root.left, max(mx, root.val))
+        right = self.goodNodes(root.right, max(mx, root.val))
+        return left + right + (mx <= root.val)
+==========
+[97-M] https://leetcode.com/problems/interleaving-string/
+DP
+==========
+[607-E] https://leetcode.com/problems/sales-person/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+red_id = company[company.name == "RED"].com_id
+red_orders = orders[orders.com_id.isin(red_id)].sales_id
+return sales_person[~sales_person.sales_id.isin(red_orders)][['name']] 
+
+230826:
+[1200-E] https://leetcode.com/problems/minimum-absolute-difference/
+.sort(), pairwise()
+==========
+[646-M] https://leetcode.com/problems/maximum-length-of-pair-chain/
+DP
+排序+二分
+排序+贪心
+==========
+[1280-E] https://leetcode.com/problems/students-and-examinations/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+df = students.merge(subjects, how='cross')
+examinations = examinations.groupby(['student_id', 'subject_name']).size().reset_index(name='attended_exams')
+df = df.merge(examinations, how='left', on=['student_id', 'subject_name'])
+df.fillna(0, inplace=True)
+df.sort_values(['student_id', 'student_name', 'subject_name'], inplace=True)
+return df[['student_id', 'student_name', 'subject_name', 'attended_exams']]
+
+230827:
+[2833-E] https://leetcode.com/problems/furthest-point-from-origin/
+Counter()
+==========
+[2834-M] https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/
+set()
+==========
+[1050-E] https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+cnter = actor_director.groupby(['actor_id', 'director_id']).size().reset_index(name='cnts')
+return cnter[cnter['cnts'] >= 3][['actor_id', 'director_id']]
+==========
+[56-M] https://leetcode.com/problems/merge-intervals/
+排序
+==========
+[403-H] https://leetcode.com/problems/frog-jump/
+记忆化搜索
+DP
+
+230828:
+[1748-E] https://leetcode.com/problems/sum-of-unique-elements/
+Counter()
+==========
+[225-E] https://leetcode.com/problems/implement-stack-using-queues/
+deque(), 只需使用一个
+==========
+[1693-E] https://leetcode.com/problems/daily-leads-and-partners/
+df = daily_sales.groupby(['date_id', 'make_name']).nunique().reset_index()
+return df.rename({'lead_id': 'unique_leads', 'partner_id': 'unique_partners'}, axis=1)
+
+230829:
+[1378-E] https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+df = employees.merge(employee_uni, on='id', how='left')
+return df[['unique_id', 'name']]
+==========
+[570-M] https://leetcode.com/problems/managers-with-at-least-5-direct-reports/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+df = employee.groupby('managerId').size().reset_index(name='cnt')
+df = df[df['cnt'] >= 5].merge(employee[['id', 'name']], left_on='managerId', right_on='id')
+return df[['name']]
+==========
+[2483-M] https://leetcode.com/problems/minimum-penalty-for-a-shop/
+前缀和
+==========
+[823-M] https://leetcode.com/problems/binary-trees-with-factors/
+DP
+==========
+[2835-H] https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/
+贪心
+
+230830:
+[2366-H] https://leetcode.com/problems/minimum-replacements-to-sort-the-array/
+贪心
+==========
+[1654-M] https://leetcode.com/problems/minimum-jumps-to-reach-home/
+BFS
+==========
+[2836-H] https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/
+倍增
+
+230831:
+[2511-E] https://leetcode.com/problems/maximum-enemy-forts-that-can-be-captured/
+模拟
+==========
+[1761-H] https://leetcode.com/problems/minimum-degree-of-a-connected-trio-in-a-graph/
+枚举
+
+230901:
+[338-E] https://leetcode.com/problems/counting-bits/
+模拟
+==========
+[2240-M] https://leetcode.com/problems/number-of-ways-to-buy-pens-and-pencils/
+枚举
+
+230902:
+[2540-E] https://leetcode.com/problems/minimum-common-value/
+set()
+==========
+[2053-E] https://leetcode.com/problems/kth-distinct-string-in-an-array/
+Counter()
+==========
+[2839-E] https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/
+模拟
+==========
+[2840-M] https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/
+defaultdict(list)
+
+230903:
+[2843-E] https://leetcode.com/problems/count-symmetric-integers/
+预处理+枚举
+==========
+[62-M] https://leetcode.com/problems/unique-paths/
+DP
+组合数
+==========
+[1921-M] https://leetcode.com/problems/eliminate-maximum-number-of-monsters/
+排序+贪心
+
+230904:
+[449-M] https://leetcode.com/problems/serialize-and-deserialize-bst/
+DFS
+==========
+[1629-E] https://leetcode.com/problems/slowest-key/
+哈希表
+
+
+230905:
+[138-M] https://leetcode.com/problems/copy-list-with-random-pointer/
+哈希表
+==========
+[2605-E] https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/
+模拟
+
+230906:
+[725-M] https://leetcode.com/problems/split-linked-list-in-parts/
+模拟
+==========
+[1123-M] https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
+DFS
+==========
+[2841-M] https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/
+滑动窗口
+==========
+[2844-M] https://leetcode.com/problems/minimum-operations-to-make-a-special-number/
+贪心
+
+230907:
+[2594-M] https://leetcode.com/problems/minimum-time-to-repair-cars/
+二分查找
+==========
+[92-M] https://leetcode.com/problems/reverse-linked-list-ii/
+头插法
+==========
+[2842-H] https://leetcode.com/problems/count-k-subsequences-of-a-string-with-maximum-beauty/
+组合数学
+==========
+[2846-H] https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree/
+LCA+Tarjan
+
+230908:
+[2651-E] https://leetcode.com/problems/calculate-delayed-arrival-time/
+模拟
+==========
+[2000-E] https://leetcode.com/problems/reverse-prefix-of-word/
+模拟
+
+230909:
+[1752-E] https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
+模拟
+==========
+[377-M] https://leetcode.com/problems/combination-sum-iv/
+DP
+
+230910:
+[1359-H] https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/
+DP
+==========
+[210-M] https://leetcode.com/problems/course-schedule-ii/
+DFS
+
+230911:
+[630-H] https://leetcode.com/problems/course-schedule-iii/
+Heap
+==========
+[2549-E] https://leetcode.com/problems/count-distinct-numbers-on-board/
+Math
+
+230912:
+[1647-M] https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/
+贪心
+==========
+[1462-M] https://leetcode.com/problems/course-schedule-iv/
+Floyd-Warshall
+
+230913:
+[135-H] https://leetcode.com/problems/candy/
+贪心
+==========
+[2586-M] https://leetcode.com/problems/check-knight-tour-configuration/
+模拟
+==========
+[2849-M] https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/
+化归
+
+230914:
+[322-H] https://leetcode.com/problems/reconstruct-itinerary/
+递归/递推
+==========
+[1222-M] https://leetcode.com/problems/queens-that-can-attack-the-king/
+模拟
+==========
+[2850-M] https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/
+枚举全排列
+
+230915:
+[LCP-50] https://leetcode.cn/problems/WHnhjV/
+模拟
+==========
+[2047-E] https://leetcode.com/problems/number-of-valid-words-in-a-sentence/
+模拟
+==========
+[1584-M] https://leetcode.com/problems/min-cost-to-connect-all-points/
+Prim算法
+
+230916:
+[1995-E] https://leetcode.com/problems/count-special-quadruplets/
+模拟
+==========
+[1631-M] https://leetcode.com/problems/path-with-minimum-effort/
+DSU
+==========
+[2851-H] https://leetcode.com/problems/string-transformation/
+KMP
+
+230917:
+[2859-E] https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/
+模拟
+==========
+[213-M] https://leetcode.com/problems/house-robber-ii/
+DP
+==========
+[847-H] https://leetcode.com/problems/shortest-path-visiting-all-nodes/
+BFS
+==========
+[2860-M] https://leetcode.com/problems/happy-students/
+模拟
+==========
+[2855-E] https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/
+模拟
+
+230918:
+[1337-E] https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
+模拟
+==========
+[337-M] https://leetcode.com/problems/house-robber-iii/
+树形DP
+==========
+[2861-M] https://leetcode.com/problems/maximum-number-of-alloys/
+二分查找
+==========
+[2856-M] https://leetcode.com/problems/minimum-array-length-after-pair-removals/
+贪心
+
+230919:
+[2560-M] https://leetcode.com/problems/house-robber-iv/
+二分查找
+==========
+[287-M] https://leetcode.com/problems/find-the-duplicate-number/
+快慢指针
+
+230920:
+[LCP06-E] https://leetcode.cn/problems/na-ying-bi/
+模拟
+==========
+[2520-E] https://leetcode.com/problems/count-the-digits-that-divide-a-number/
+模拟
+==========
+[2652-E] https://leetcode.com/problems/sum-multiples/
+模拟 (O(n))
+容斥原理 (O(1))
+
+230921:
+[2603-H] https://leetcode.com/problems/collect-coins-in-a-tree/
+拓扑排序
+==========
+[4-H] https://leetcode.com/problems/median-of-two-sorted-arrays/
+二分查找
+
+230922:
+[392-E] https://leetcode.com/problems/is-subsequence/
+模拟
+==========
+[2591-E] https://leetcode.com/problems/distribute-money-to-maximum-children/
+分类讨论
+
+230923:
+[2574-E] https://leetcode.com/problems/left-and-right-sum-differences/
+前缀和
+==========
+[799-M] https://leetcode.com/problems/champagne-tower/
+DP 
+
+230924:
+[242-E] https://leetcode.com/problems/valid-anagram/
+Counter()
+==========
+[1037-E] https://leetcode.com/problems/valid-boomerang/
+Math
+==========
+[2864-E] https://leetcode.com/problems/maximum-odd-binary-number/
+贪心
+
+230925:
+
+230926 [15857/7820]
+[316-M] https://leetcode.com/problems/remove-duplicate-letters/
+Counter+栈
+==========
+[1081-M] https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/
+同316
+==========
+[401-E] https://leetcode.com/problems/binary-watch/
+return [f'{h}:{m:02d}' for h in range(12) for m in range(60) if (bin(h) + bin(m)).count('1') == turnedOn]
+==========
+[2865-M] https://leetcode.com/problems/beautiful-towers-i/
+贪心模拟
+
+230927 [15609/7734]
+[880-M] https://leetcode.com/problems/decoded-string-at-index/
+逆向遍历
+==========
+[1333-M] https://leetcode.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/
+排序模拟
+
+230928 [15505/7697]
+[509-E] https://leetcode.com/problems/fibonacci-number/
+模拟
+==========
+[905-E] https://leetcode.com/problems/sort-array-by-parity/
+模拟
+
+230929 [15299/7663]
+[1436-E] https://leetcode.com/problems/destination-city/
+set()
+==========
+[1437-E] https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/
+模拟
+==========
+[2866-M] https://leetcode.com/problems/beautiful-towers-ii/
+单调栈 + DP (递推关系)
+
+230930 [15299/7615]
+[456-M] https://leetcode.com/problems/132-pattern/
+单调栈
+==========
+[2136-H] https://leetcode.com/problems/earliest-possible-day-of-full-bloom/
+贪心
+==========
+[2867-H] https://leetcode.com/problems/count-valid-paths-in-a-tree/
+素数筛+DFS
+==========
+[2869-E] https://leetcode.com/problems/minimum-operations-to-collect-elements/
+set().issubset()
+==========
+[2870-E] https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/
+贪心
+
+
+231001 [15077/7549]
+[1025-E] https://leetcode.com/problems/divisor-game/
+博弈论
+==========
+[1646-E] https://leetcode.com/problems/get-maximum-in-generated-array/
+模拟
+==========
+[2871-M] https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/
+位运算AND
+==========
+[2873-E] https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/
+枚举
+==========
+[2874-M] https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii/
+贪心
+
+231002 [14673/7356]
+[122-M] https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+贪心 / DP
+==========
+[2038] https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/
+贪心
+
+231003 [14502/7317]
+[2660-E] https://leetcode.com/problems/determine-the-winner-of-a-bowling-game/
+模拟
+==========
+[2656-E] https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/
+直接计算
+==========
+[2875-M] https://leetcode.com/problems/minimum-size-subarray-in-infinite-array/
+滑动窗口
+前缀和+DP
+==========
+[560-M] https://leetcode.com/problems/subarray-sum-equals-k/
+哈希表
+==========
+[300-M] https://leetcode.com/problems/longest-increasing-subsequence/
+DP (O(n^2))
+二分查找 (O(nlog(n))
+
+231004 [?/?]
+[706-E] https://leetcode.com/problems/design-hashmap/
+链地址法
+==========
+[188-H] https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
+DP
+==========
+[2872-H] https://leetcode.com/problems/maximum-number-of-k-divisible-components/
+DFS
+
+231005 [14060/7133]
+[2570-E] https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/
+哈希表
+==========
+[229-M] https://leetcode.com/problems/majority-element-ii/
+哈希表
+Boyer-Moore投票法
+==========
+[2876-H] https://leetcode.com/problems/count-visited-nodes-in-a-directed-graph/d
+DFS
+
+231006 [13895/7066]
+[2553-E] https://leetcode.com/problems/separate-the-digits-in-an-array/
+模拟
+==========
+[343-M] https://leetcode.com/problems/integer-break/
+Math
+DP
+
+231007 [13805/7018]
+[901-M] https://leetcode.com/problems/online-stock-span/
+单调栈
+==========
+[1420-H] https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/
+DP
+
+231008 [13715/6976]
+[1458-H] https://leetcode.com/problems/max-dot-product-of-two-subsequences/
+DP
+==========
+[2034-M] https://leetcode.com/problems/stock-price-fluctuation/
+有序数组+哈希表
+==========
+[2894-E] https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/
+模拟
+==========
+[2895-M] https://leetcode.com/problems/minimum-processing-time/
+贪心
+
+231009 [13544/6903]
+[2578-E] https://leetcode.com/problems/split-with-minimum-sum/
+模拟 (有些难度)
+==========
+[34-M] https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+二分查找
+
+231010 [13544/6862]
+[342-E] https://leetcode.com/problems/power-of-four/
+二进制
+==========
+[2009-H] https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/
+二分查找
+
+231011 [13372/6822]
+[2512-H] https://leetcode.com/problems/reward-top-k-students/
+哈希表 + 排序
+==========
+[1385-E] https://leetcode.com/problems/find-the-distance-value-between-two-arrays/
+二分查找
+
+231012 [13290/6788]
+[1095-H] https://leetcode.com/problems/find-in-mountain-array/
+二分查找
+==========
+[412-E] https://leetcode.com/problems/fizz-buzz/
+模拟
+==========
+[2896-M] https://leetcode.com/problems/apply-operations-to-make-two-strings-equal/
+DP
+
+231013 [13157/6738]
+[2248-E] https://leetcode.com/problems/intersection-of-multiple-arrays/
+集合
+==========
+[1488-M] https://leetcode.com/problems/avoid-flood-in-the-city/
+贪心 + 二分查找
+
+231014 [-]
+[1816-E] https://leetcode.com/problems/truncate-sentence/
+模拟
+==========
+[1862-E] https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
+模拟
+==========
+[2897-H] https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/
+位运算
+
+231015 [12920/6647]
+[1909-E] https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/
+模拟
+单调栈
+==========
+[1269-H] https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/
+DP
+
+231016 [12876/6621]
+[1979-E] https://leetcode.com/problems/find-greatest-common-divisor-of-array/
+模拟
+==========
+[260-M] https://leetcode.com/problems/single-number-iii/
+位运算
+==========
+[2903-E] https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/
+模拟
+
+231017 [12723/6556]
+[1361-M] https://leetcode.com/problems/validate-binary-tree-nodes/
+BFS
+==========
+[1614-E] https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/
+模拟
+==========
+[2904-M] https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/
+枚举
+
+231018 [12723/6499]
+[1619-E] https://leetcode.com/problems/mean-of-array-after-removing-some-elements/
+模拟
+==========
+[2530-M] https://leetcode.com/problems/maximal-score-after-applying-k-operations/
+堆
+==========
+[2905-M] https://leetcode.com/problems/find-indices-with-index-and-value-difference-ii/
+双指针
+==========
+[2906-M] https://leetcode.com/problems/construct-product-matrix/
+前后缀分解
+
+231019 [12384/6421]
+[844-E] https://leetcode.com/problems/backspace-string-compare/
+栈
+==========
+[1726-M] https://leetcode.com/problems/tuple-with-same-product/
+哈希表
+
+231020 [12325/6398]
+[341-M] https://leetcode.com/problems/flatten-nested-list-iterator/
+栈模拟
+==========
+[2525-E] https://leetcode.com/problems/categorize-box-according-to-criteria/
+模拟
+
+231021 [12325/6362]
+[1863-E] https://leetcode.com/problems/sum-of-all-subset-xor-totals/
+遍历 (用.extend()比+=要快)
+==========
+[1425-H] https://leetcode.com/problems/constrained-subsequence-sum/
+deque()
+
+231022 [12166/6349]
+[1793-H] https://leetcode.com/problems/maximum-score-of-a-good-subarray/
+双指针
+==========
+[2239-E] https://leetcode.com/problems/find-closest-number-to-zero/
+模拟
+
+231023 [12098/6325]
+[1460-E] https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/
+sorted() / Counter()
+==========
+[1608-E] https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/
+模拟
+
+231024 [12001/6309]
+[515-M] https://leetcode.com/problems/find-largest-value-in-each-tree-row/
+BFS
+==========
+[1155-M] https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
+DP
+
+231025 [11864/6280]
+[779-M] https://leetcode.com/problems/k-th-symbol-in-grammar/
+Recursion / Bit Count
+==========
+[2273-E] https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/
+Stack
+
+231026 [-]
+[1588-E] https://leetcode.com/problems/sum-of-all-odd-length-subarrays/
+找规律
+==========
+[1594-E] https://leetcode.com/problems/reformat-phone-number/
+模拟
+
+231027 [11744/6224]
+[7-M] https://leetcode.com/problems/reverse-integer/
+[int].bit_length()
+==========
+[1465-M] https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
+贪心
+
+231028 [11672/6184]
+[2016-E] https://leetcode.com/problems/maximum-difference-between-increasing-elements/
+模拟
+==========
+[1220-H] https://leetcode.com/problems/count-vowels-permutation/
+DP
+
+231029 [11533/6149]
+[274-M] https://leetcode.com/problems/h-index
+计数排序
+==========
+[458-H] https://leetcode.com/problems/poor-pigs/
+n进制 / 信息熵
+
+231030 [11533/6122]
+[1356-E] https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/
+模拟
+==========
+[275-M] https://leetcode.com/problems/h-index-ii/
+二分查找
+
+231031 [11291/6087]
+[2003-H] https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree/
+DFS
+==========
+[2433-M] https://leetcode.com/problems/find-the-original-array-of-prefix-xor/
+位运算
+
+231101 [11291/6059]
+[501-E] https://leetcode.com/problems/find-mode-in-binary-search-tree/
+中序遍历
+==========
+[2127-H] https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/
+拓扑排序
+
+231102 [11233/6020]
+[1089-E] https://leetcode.com/problems/duplicate-zeros/
+nums.insert()
+==========
+[2265-M] https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/
+DFS
+==========
+[2917-E] https://leetcode.com/problems/find-the-k-or-of-an-array/
+模拟
+==========
+[2918-M] https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros/
+化归
+
+231103 [11074/5959]
+[1411-M] https://leetcode.com/problems/build-an-array-with-stack-operations/
+模拟
+==========
+[117-M] https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
+BFS
+
+231104 [-]
+[421-M] https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
+位运算
+==========
+[1503-M] https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/
+化归
+==========
+[2919-M] https://leetcode.com/problems/minimum-increment-operations-to-make-array-beautiful/
+DP
+==========
+[2920-H] https://leetcode.com/problems/maximum-points-after-collecting-coins-from-all-nodes/
+DFS
+
+231105 [10822/5882]
+[1535-M] https://leetcode.com/problems/find-the-winner-of-an-array-game/
+分类讨论、模拟
+==========
+[187-M] https://leetcode.com/problems/repeated-dna-sequences/
+集合、模拟
+==========
+[2923-E] https://leetcode.com/problems/find-champion-i/
+模拟
+==========
+[2924-M] https://leetcode.com/problems/find-champion-ii/
+模拟
+
+231106 [10683/5807]
+[318-M] https://leetcode.com/problems/maximum-product-of-word-lengths/
+模拟
+==========
+[1845-M] https://leetcode.com/problems/seat-reservation-manager/
+小顶堆
+==========
+[2925-M] https://leetcode.com/problems/maximum-score-after-applying-operations-on-a-tree/
+树形DP
+
+231107 [10573/5751]
+[2586-E] https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/
+模拟
+==========
+[2506-E] https://leetcode.com/problems/count-pairs-of-similar-strings/
+模拟
+==========
+[2926-H] https://leetcode.com/problems/maximum-balanced-subsequence-sum/
+SortedList + 二分查找
+
+231108 [10487/5716]
+[2609-E] https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/
+模拟
+==========
+[1550-E] https://leetcode.com/problems/three-consecutive-odds/
+模拟
+
+231109 [10487/5696]
+[867-E] https://leetcode.com/problems/transpose-matrix/
+模拟
+==========
+[2258-H] https://leetcode.com/problems/escape-the-spreading-fire/
+BFS
+
+231110 [10363/5673]
+[1763-E] https://leetcode.com/problems/longest-nice-substring/
+递归
+==========
+[1743-M] https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/
+哈希表
+
+231111 [10363/5642]
+[765-H] https://leetcode.com/problems/couples-holding-hands/
+贪心
+==========
+[2642-H] https://leetcode.com/problems/design-graph-with-shortest-path-calculator/
+Dijkstra
+
+231112 [10205/5623]
+[2928-E] https://leetcode.com/problems/distribute-candies-among-children-i/
+模拟
+==========
+[2929-M] https://leetcode.com/problems/distribute-candies-among-children-ii/
+分类讨论、模拟
+==========
+[2930-M] https://leetcode.com/problems/number-of-strings-which-can-be-rearranged-to-contain-substring/
+组合数学
+==========
+[715-H] https://leetcode.com/problems/range-module/
+二分查找
+==========
+[815-H] https://leetcode.com/problems/bus-routes/
+BFS
+
+231113 [10034/5560]
+[181-E] https://leetcode.com/problems/employees-earning-more-than-their-managers/
+SQL
+==========
+[2932-E] https://leetcode.com/problems/maximum-strong-pair-xor-i/
+模拟
+==========
+[307-M] https://leetcode.com/problems/range-sum-query-mutable/
+树状数组
