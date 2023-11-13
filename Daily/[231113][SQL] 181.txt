@@ -1,0 +1,21 @@
+231113
+https://leetcode.com/problems/employees-earning-more-than-their-managers/
+
+一个名叫Employee的表
+列名为Column Name: id, name, salary, managerId
+Type为int, varchar, int, int
+id是primary key
+
+SELECT AS FROM
+LEFT JOIN ON WHERE
+SELECT e.name AS Employee FROM Employee e
+
+Employee renamed by e
+e.name renamed by Employee
+
+JOIN, INNER JOIN, LEFT JOIN, RIGHT JOIN
+
+PostgreSQL MySQL Oracle
+MS SQL Server
+这四个很多代码是可以通用的
+优先选择学习PostgreSQL和MySQL

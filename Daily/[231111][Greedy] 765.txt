@@ -1,0 +1,19 @@
+情侣牵手
+231111
+1999 题面理解容易 没有思路
+https://leetcode.com/problems/couples-holding-hands/
+---
+相关标签
+贪心、DFS、BFS、DSU、图
+
+Say there are N two-seat couches 假设有N个两座沙发
+For each couple, draw an edge from the couch of one partner to the
+couch of the other partner
+对于每对情侣，由情侣中的一位向另一位所在的沙发连线作边
+
+贪心:
+遍历偶数位2*i, 把伴侣安排到右边的奇数位2*i+1
+计算数字x的对象:
+x的对象是x^1
+当x是偶数，则其二进制的末尾是0，所以x^1将其二进制的末尾改成1，得到x的对象x+1
+当x是奇数，则其二进制的末尾是1，所以x^1将其二进制的末尾改成0，得到x的对象x-1

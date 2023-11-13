@@ -1,0 +1,6 @@
+231113
+
+bitwise XOR
+按位异或
+
+bitwise operator ^
