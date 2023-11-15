@@ -1390,3 +1390,26 @@ SQL
 ==========
 [307-M] https://leetcode.com/problems/range-sum-query-mutable/
 树状数组
+
+231114 [-]
+[1930-M] https://leetcode.com/problems/unique-length-3-palindromic-subsequences/
+模拟
+==========
+[1334-M] https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/
+DP
+==========
+[2931-H] https://leetcode.com/problems/maximum-spending-after-buying-items/
+贪心
+==========
+[2934-M] https://leetcode.com/problems/minimum-operations-to-maximize-last-elements-in-arrays/
+贪心
+==========
+[2935-H] https://leetcode.com/problems/maximum-strong-pair-xor-ii/
+位运算
+
+231115 [9808/5444]
+[193-E] https://leetcode.com/problems/valid-phone-numbers/
+Bash 正则表达式
+==========
+[1846-M] https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/
+贪心
