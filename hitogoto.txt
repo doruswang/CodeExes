@@ -1420,3 +1420,13 @@ Bash
 ==========
 [222-E] https://leetcode.com/problems/count-complete-tree-nodes/
 递归
+
+231117 [9676/5388]
+[1877-M] https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/
+Greedy
+==========
+[234-E] https://leetcode.com/problems/palindrome-linked-list/
+Traversal
+==========
+[2933-M] https://leetcode.com/problems/high-access-employees/
+Simulation
