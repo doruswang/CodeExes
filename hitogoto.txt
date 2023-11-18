@@ -1430,3 +1430,10 @@ Traversal
 ==========
 [2933-M] https://leetcode.com/problems/high-access-employees/
 Simulation
+
+231118 [9607/5333]
+[257-E] https://leetcode.com/problems/binary-tree-paths/
+DFS / BFS
+==========
+[1838-M] https://leetcode.com/problems/frequency-of-the-most-frequent-element/
+Sliding Window
