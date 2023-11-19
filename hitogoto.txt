@@ -1437,3 +1437,14 @@ DFS / BFS
 ==========
 [1838-M] https://leetcode.com/problems/frequency-of-the-most-frequent-element/
 Sliding Window
+
+231119 [9557/5299]
+[1887-M] https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/
+Hash Table
+==========
+[689-H] https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
+Prefix Sum + DP
+==========
+[2937-E] https://leetcode.com/problems/make-three-strings-equal/
+The 1000th LC AC problem
+Simulation
