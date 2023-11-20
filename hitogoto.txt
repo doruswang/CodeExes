@@ -1448,3 +1448,13 @@ Prefix Sum + DP
 [2937-E] https://leetcode.com/problems/make-three-strings-equal/
 The 1000th LC AC problem
 Simulation
+
+231120 [9486/5258]
+[53-M] https://leetcode.com/problems/maximum-subarray/
+DP
+==========
+[2391-M] https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/
+Simulation
+==========
+[2938-M] https://leetcode.com/problems/separate-black-and-white-balls/
+Transformation
