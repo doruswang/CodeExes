@@ -1458,3 +1458,16 @@ Simulation
 ==========
 [2938-M] https://leetcode.com/problems/separate-black-and-white-balls/
 Transformation
+
+231121 [9380/5219]
+[2939-M] https://leetcode.com/problems/maximum-xor-product/
+Bit Manipulation
+==========
+[263-E] https://leetcode.com/problems/ugly-number/
+Transformation
+==========
+[268-E] https://leetcode.com/problems/missing-number/
+Transformation
+==========
+[2216-M] https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful/
+Simulation
