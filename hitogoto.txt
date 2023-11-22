@@ -1471,3 +1471,16 @@ Transformation
 ==========
 [2216-M] https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful/
 Simulation
+
+231122 [9380/5157]
+[2940-H] https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/
+Binary Search + Mono-stack
+==========
+[1424-M] https://leetcode.com/problems/diagonal-traverse-ii/
+Simulation
+==========
+[292-E] https://leetcode.com/problems/nim-game/
+Game Theory
+==========
+[303-E] https://leetcode.com/problems/range-sum-query-immutable/
+Prefix Sum
