@@ -1484,3 +1484,13 @@ Game Theory
 ==========
 [303-E] https://leetcode.com/problems/range-sum-query-immutable/
 Prefix Sum
+
+231123 []
+[1410-M] https://leetcode.com/problems/html-entity-parser/
+Hash Table
+==========
+[349-E] https://leetcode.com/problems/intersection-of-two-arrays/
+set()
+==========
+[350-E] https://leetcode.com/problems/intersection-of-two-arrays-ii/
+Hash Table
