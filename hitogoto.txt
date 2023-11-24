@@ -1393,33 +1393,33 @@ SQL
 
 231114 [-]
 [1930-M] https://leetcode.com/problems/unique-length-3-palindromic-subsequences/
-模拟
+Simulation
 ==========
 [1334-M] https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/
 DP
 ==========
 [2931-H] https://leetcode.com/problems/maximum-spending-after-buying-items/
-贪心
+Greedy
 ==========
 [2934-M] https://leetcode.com/problems/minimum-operations-to-maximize-last-elements-in-arrays/
-贪心
+Greedy
 ==========
 [2935-H] https://leetcode.com/problems/maximum-strong-pair-xor-ii/
-位运算
+Bit Manipulation
 
 231115 [9808/5444]
 [193-E] https://leetcode.com/problems/valid-phone-numbers/
-Bash 正则表达式
+Bash RegEx
 ==========
 [1846-M] https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/
-贪心
+Greedy
 
 231116 [9676/5416]
 [195-E] https://leetcode.com/problems/tenth-line/
 Bash
 ==========
 [222-E] https://leetcode.com/problems/count-complete-tree-nodes/
-递归
+Recursion
 
 231117 [9676/5388]
 [1877-M] https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/
@@ -1505,5 +1505,5 @@ Binary Search
 [387-E] https://leetcode.com/problems/first-unique-character-in-a-string/
 Counter()
 ==========
-[1561-M]
+[1561-M] https://leetcode.com/problems/maximum-number-of-coins-you-can-get/
 Greedy
