@@ -1485,7 +1485,7 @@ Game Theory
 [303-E] https://leetcode.com/problems/range-sum-query-immutable/
 Prefix Sum
 
-231123 []
+231123 [-]
 [1410-M] https://leetcode.com/problems/html-entity-parser/
 Hash Table
 ==========
@@ -1494,3 +1494,16 @@ set()
 ==========
 [350-E] https://leetcode.com/problems/intersection-of-two-arrays-ii/
 Hash Table
+
+231124 [9012/5073]
+[367-E] https://leetcode.com/problems/valid-perfect-square/
+Binary Search
+==========
+[374-E] https://leetcode.com/problems/guess-number-higher-or-lower/
+Binary Search
+==========
+[387-E] https://leetcode.com/problems/first-unique-character-in-a-string/
+Counter()
+==========
+[1561-M]
+Greedy
