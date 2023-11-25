@@ -1329,38 +1329,38 @@ DFS
 
 231107 [10573/5751]
 [2586-E] https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/
-模拟
+Simulation
 ==========
 [2506-E] https://leetcode.com/problems/count-pairs-of-similar-strings/
-模拟
+Simulation
 ==========
 [2926-H] https://leetcode.com/problems/maximum-balanced-subsequence-sum/
-SortedList + 二分查找
+SortedList + Binary Search
 
 231108 [10487/5716]
 [2609-E] https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/
-模拟
+Simulation
 ==========
 [1550-E] https://leetcode.com/problems/three-consecutive-odds/
-模拟
+Simulation
 
 231109 [10487/5696]
 [867-E] https://leetcode.com/problems/transpose-matrix/
-模拟
+Simulation
 ==========
 [2258-H] https://leetcode.com/problems/escape-the-spreading-fire/
 BFS
 
 231110 [10363/5673]
 [1763-E] https://leetcode.com/problems/longest-nice-substring/
-递归
+Recursion
 ==========
 [1743-M] https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/
-哈希表
+Hash Table
 
 231111 [10363/5642]
 [765-H] https://leetcode.com/problems/couples-holding-hands/
-贪心
+Greedy
 ==========
 [2642-H] https://leetcode.com/problems/design-graph-with-shortest-path-calculator/
 Dijkstra
