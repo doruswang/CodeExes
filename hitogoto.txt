@@ -1507,3 +1507,16 @@ Counter()
 ==========
 [1561-M] https://leetcode.com/problems/maximum-number-of-coins-you-can-get/
 Greedy
+
+231125 [8901/5013]
+[1457-M][*/~] https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
+DFS + Bit Manipulation
+==========
+[1685-M][*/~] https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/
+Math
+==========
+[405-E][*/~] https://leetcode.com/problems/convert-a-number-to-hexadecimal/
+Math
+==========
+[404-E][*/~] https://leetcode.com/problems/sum-of-left-leaves/
+DFS
