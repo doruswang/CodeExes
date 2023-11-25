@@ -1262,7 +1262,7 @@ n进制 / 信息熵
 DFS
 ==========
 [2433-M] https://leetcode.com/problems/find-the-original-array-of-prefix-xor/
-位运算
+Bit Manipulation
 
 231101 [11291/6059]
 [501-E] https://leetcode.com/problems/find-mode-in-binary-search-tree/
