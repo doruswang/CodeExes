@@ -1279,10 +1279,10 @@ nums.insert()
 DFS
 ==========
 [2917-E] https://leetcode.com/problems/find-the-k-or-of-an-array/
-模拟
+Simulation
 ==========
 [2918-M] https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros/
-化归
+Transformation
 
 231103 [11074/5959]
 [1411-M] https://leetcode.com/problems/build-an-array-with-stack-operations/
