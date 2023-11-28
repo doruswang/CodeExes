@@ -1534,3 +1534,16 @@ DP
 ==========
 [907-M] https://leetcode.com/problems/sum-of-subarray-minimums/
 Monotonic Stack
+
+231128 [8784/4912]
+[2147-H][/~] https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/
+Combinatorics
+==========
+[1670-M][~] https://leetcode.com/problems/design-front-middle-back-queue/
+Simulation
+==========
+[2942-E][~] https://leetcode.com/problems/find-words-containing-character/
+Simulation
+==========
+[2946-E][*~] https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/
+Simulation
