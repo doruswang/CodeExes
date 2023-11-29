@@ -1547,3 +1547,19 @@ Simulation
 ==========
 [2946-E][*~] https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/
 Simulation
+
+231129 [8566/4872]
+[409-E][~] https://leetcode.com/problems/longest-palindrome/
+Counter()
+==========
+[414-E][~] https://leetcode.com/problems/third-maximum-number/
+Simulation
+==========
+[441-E][~] https://leetcode.com/problems/arranging-coins/
+Math
+==========
+[2943-M][*/~] https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/
+Greedy
+==========
+[2947-M][*/~] https://leetcode.com/problems/count-beautiful-substrings-i/
+Simulation
