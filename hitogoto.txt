@@ -1563,3 +1563,20 @@ Greedy
 ==========
 [2947-M][*/~] https://leetcode.com/problems/count-beautiful-substrings-i/
 Simulation
+
+231130 [8425/4818]
+[1611-H][*/~] https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/
+Bit Manipulation
+==========
+[448-E] https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+set()
+==========
+[461-E][*~] https://leetcode.com/problems/hamming-distance/
+bin(x ^ y).count('1')
+v = v.rjust(n, '0')
+==========
+[2944-M][*/~] https://leetcode.com/problems/minimum-number-of-coins-for-fruits/
+DP + Deque
+==========
+[2948-M][*/~] https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/
+Sorting
