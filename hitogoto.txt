@@ -1580,3 +1580,16 @@ DP + Deque
 ==========
 [2948-M][*/~] https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/
 Sorting
+
+231201 [8282/4753]
+[463-E][*~] https://leetcode.com/problems/island-perimeter/
+分类讨论
+==========
+[2661-M][*~] https://leetcode.com/problems/first-completely-painted-row-or-column/
+Simulation
+==========
+[2945-H][*/~] https://leetcode.com/problems/find-maximum-non-decreasing-array-length/
+DP
+==========
+[2949-H][*/~] https://leetcode.com/problems/count-beautiful-substrings-ii/
+Hash Table
