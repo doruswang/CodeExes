@@ -1608,3 +1608,16 @@ Simulation
 Two Pointers
 ---
 groupby()
+
+231203 [8027/4625]
+[1423-M][*~] https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
+Prefix Sum
+==========
+[1266-E][*~] https://leetcode.com/problems/minimum-time-visiting-all-points/
+Greedy
+==========
+[492-E][~] https://leetcode.com/problems/construct-the-rectangle/
+Simulation
+==========
+[2951-E][~] https://leetcode.com/problems/find-the-peaks/
+Simulation
