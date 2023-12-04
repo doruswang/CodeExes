@@ -1621,3 +1621,19 @@ Simulation
 ==========
 [2951-E][~] https://leetcode.com/problems/find-the-peaks/
 Simulation
+
+231204 [7932/4584]
+[2264-E][~] https://leetcode.com/problems/largest-3-same-digit-number-in-string/
+Simulation
+==========
+[538-M][*/~] https://leetcode.com/problems/convert-bst-to-greater-tree/
+DFS
+==========
+[1038-M][*/~] https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
+DFS
+==========
+[2952-M][*/~] https://leetcode.com/problems/minimum-number-of-coins-to-be-added/
+Greedy
+==========
+[495-E][*/~] https://leetcode.com/problems/teemo-attacking/
+Simulation
