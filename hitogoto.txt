@@ -1637,3 +1637,18 @@ Greedy
 ==========
 [495-E][*/~] https://leetcode.com/problems/teemo-attacking/
 Simulation
+
+231205 [7813/4524]
+[1688-E][~] https://leetcode.com/problems/count-of-matches-in-tournament/
+Transformation
+==========
+[496-E][*/~] https://leetcode.com/problems/next-greater-element-i/
+Simulation
+---
+Monotonic Stack
+==========
+[504-E][*/~] https://leetcode.com/problems/base-7/
+Simulation
+==========
+[2953-M][*/~] https://leetcode.com/problems/count-complete-substrings/
+Sliding Window + Counting
