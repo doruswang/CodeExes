@@ -1652,3 +1652,19 @@ Simulation
 ==========
 [2953-M][*/~] https://leetcode.com/problems/count-complete-substrings/
 Sliding Window + Counting
+
+231206 [7704/4475]
+[2954-H][*/~] https://leetcode.com/problems/count-the-number-of-infection-sequences/
+Combinatorics
+==========
+[1716-E][*~] https://leetcode.com/problems/calculate-money-in-leetcode-bank/
+Math
+==========
+[506-E][*~] https://leetcode.com/problems/relative-ranks/
+Hash Table
+==========
+[507-E][*~] https://leetcode.com/problems/perfect-number/
+Math
+==========
+[2646-H][*/~] https://leetcode.com/problems/minimize-the-total-price-of-the-trips/
+DFS
