@@ -1668,3 +1668,13 @@ Math
 ==========
 [2646-H][*/~] https://leetcode.com/problems/minimize-the-total-price-of-the-trips/
 DFS
+
+231207 [7566/4418]
+[1903-E] https://leetcode.com/problems/largest-odd-number-in-string/
+Greedy
+==========
+[521-E] https://leetcode.com/problems/longest-uncommon-subsequence-i/
+Greedy
+==========
+[541-E] https://leetcode.com/problems/reverse-string-ii/
+Simulation
