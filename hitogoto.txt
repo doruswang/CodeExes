@@ -1670,11 +1670,11 @@ Math
 DFS
 
 231207 [7566/4418]
-[1903-E] https://leetcode.com/problems/largest-odd-number-in-string/
+[1903-E][~] https://leetcode.com/problems/largest-odd-number-in-string/
 Greedy
 ==========
-[521-E] https://leetcode.com/problems/longest-uncommon-subsequence-i/
+[521-E][~] https://leetcode.com/problems/longest-uncommon-subsequence-i/
 Greedy
 ==========
-[541-E] https://leetcode.com/problems/reverse-string-ii/
+[541-E][~] https://leetcode.com/problems/reverse-string-ii/
 Simulation
