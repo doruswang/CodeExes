@@ -1678,3 +1678,13 @@ Greedy
 ==========
 [541-E][~] https://leetcode.com/problems/reverse-string-ii/
 Simulation
+
+231208 [7504/4387]
+[2008-M][*/~] https://leetcode.com/problems/maximum-earnings-from-taxi/
+DP
+==========
+[543-E][*/~] https://leetcode.com/problems/diameter-of-binary-tree/
+DFS
+==========
+[551-E][~] https://leetcode.com/problems/student-attendance-record-i/
+Simulation
