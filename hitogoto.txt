@@ -1688,3 +1688,13 @@ DFS
 ==========
 [551-E][~] https://leetcode.com/problems/student-attendance-record-i/
 Simulation
+
+231209 [7434/4357]
+[2048-M] https://leetcode.com/problems/next-greater-numerically-balanced-number/
+Enumeration
+==========
+[559-E] https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
+DFS
+==========
+[561-E] https://leetcode.com/problems/array-partition/
+Greedy
