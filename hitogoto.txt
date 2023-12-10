@@ -1698,3 +1698,16 @@ DFS
 ==========
 [561-E] https://leetcode.com/problems/array-partition/
 Greedy
+
+231210 [7434/4327]
+[563-E][*/~] https://leetcode.com/problems/binary-tree-tilt/
+DFS
+==========
+[566-E][~] https://leetcode.com/problems/reshape-the-matrix/
+Simulation
+==========
+[572-E][*/~] https://leetcode.com/problems/subtree-of-another-tree/
+DFS
+==========
+[2956-E][~] https://leetcode.com/problems/find-common-elements-between-two-arrays/
+Counter()
