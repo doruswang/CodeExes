@@ -1731,3 +1731,16 @@ Simulation
 SELECT Employee.name, Bonus.bonus
 FROM Employee LEFT JOIN Bonus ON Employee.empId = Bonus.empId
 WHERE bonus < 1000 OR bonus IS NULL
+
+231212 [7131/4234]
+[1464-E][~] https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
+Transformation
+==========
+[2454-H][*/~] https://leetcode.com/problems/next-greater-element-iv/
+SortedList
+==========
+[2961-M][~] https://leetcode.com/problems/double-modular-exponentiation/
+Simulation
+==========
+[2958-M][~] https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/
+Sliding Window
