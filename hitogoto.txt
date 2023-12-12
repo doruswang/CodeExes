@@ -1742,5 +1742,5 @@ SortedList
 [2961-M][~] https://leetcode.com/problems/double-modular-exponentiation/
 Simulation
 ==========
-[2958-M][~] https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/
+[2958-M][*/~] https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/
 Sliding Window
