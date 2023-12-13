@@ -1744,3 +1744,24 @@ Simulation
 ==========
 [2958-M][*/~] https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/
 Sliding Window
+
+231213 [7036/4186]
+[1582-E][*~] https://leetcode.com/problems/special-positions-in-a-binary-matrix/
+Simulation
+zip(*mat)
+==========
+[2959-H][*/~] https://leetcode.com/problems/number-of-possible-sets-of-closing-branches/
+Floyd + Mask
+==========
+[2962-M][*/~] https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/
+Sliding Window
+==========
+[589-E][*/~] https://leetcode.com/problems/n-ary-tree-preorder-traversal/
+DFS
+---
+Iteration
+==========
+[590-E][*~] https://leetcode.com/problems/n-ary-tree-postorder-traversal/
+DFS
+---
+Iteration
