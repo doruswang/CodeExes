@@ -1765,3 +1765,13 @@ Iteration
 DFS
 ---
 Iteration
+
+231214 [6905/4136]
+[2482-M][*~] https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/
+Simulation
+==========
+[2132-H][*/~] https://leetcode.com/problems/stamping-the-grid/
+2D Prefix Sum
+==========
+[2963-H][*/~] https://leetcode.com/problems/count-the-number-of-good-partitions/
+Hash Table
