@@ -1775,3 +1775,10 @@ Simulation
 ==========
 [2963-H][*/~] https://leetcode.com/problems/count-the-number-of-good-partitions/
 Hash Table
+
+231215 [6855/4107]
+[2415-M] https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/
+BFS
+==========
+[594-E] https://leetcode.com/problems/longest-harmonious-subsequence/
+Hash Table
