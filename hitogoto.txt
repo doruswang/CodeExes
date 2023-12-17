@@ -1789,3 +1789,14 @@ Chtholly Tree
 ==========
 [598-E] https://leetcode.com/problems/range-addition-ii/
 Transformation
+
+231217 [6828/4062]
+[599-E] https://leetcode.com/problems/minimum-index-sum-of-two-lists/
+Hash Table
+==========
+[601-E] https://leetcode.com/problems/triangle-judgement/
+SELECT *, IF(x + y > z AND y + z > x AND z + x > y, "Yes", "No") AS triangle
+FROM Triangle
+==========
+[2353-M] https://leetcode.com/problems/design-a-food-rating-system/
+SortedSet
