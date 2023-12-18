@@ -1791,12 +1791,27 @@ Chtholly Tree
 Transformation
 
 231217 [6828/4062]
-[599-E] https://leetcode.com/problems/minimum-index-sum-of-two-lists/
+[599-E][~] https://leetcode.com/problems/minimum-index-sum-of-two-lists/
 Hash Table
 ==========
-[601-E] https://leetcode.com/problems/triangle-judgement/
+[601-E][/~] https://leetcode.com/problems/triangle-judgement/
 SELECT *, IF(x + y > z AND y + z > x AND z + x > y, "Yes", "No") AS triangle
 FROM Triangle
 ==========
-[2353-M] https://leetcode.com/problems/design-a-food-rating-system/
+[2353-M][*/~] https://leetcode.com/problems/design-a-food-rating-system/
 SortedSet
+
+231218 [6743/4029]
+[1913-E][~] https://leetcode.com/problems/maximum-product-difference-between-two-pairs/
+Sorting
+==========
+[162-M][/~] https://leetcode.com/problems/find-peak-element/
+Binary Search
+==========
+[619-E][/~] https://leetcode.com/problems/biggest-single-number/
+SELECT MAX(num) AS num
+FROM (
+    SELECT num FROM MyNumbers
+    GROUP BY num
+    HAVING COUNT(num) = 1
+) AS single_numbers
