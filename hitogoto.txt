@@ -1815,3 +1815,18 @@ FROM (
     GROUP BY num
     HAVING COUNT(num) = 1
 ) AS single_numbers
+
+231219 [6686/4003]
+[661-E][*~] https://leetcode.com/problems/image-smoother/
+Simulation
+==========
+[1901-M][*/~] https://leetcode.com/problems/find-a-peak-element-ii/
+Binary Search
+==========
+[620-E][~] https://leetcode.com/problems/not-boring-movies/
+SELECT * FROM Cinema
+WHERE id % 2 = 1 AND description != "boring"
+ORDER BY rating DESC
+==========
+[2965-E][~] https://leetcode.com/problems/find-missing-and-repeated-values/
+Enumeration
