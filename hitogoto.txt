@@ -1830,3 +1830,16 @@ ORDER BY rating DESC
 ==========
 [2965-E][~] https://leetcode.com/problems/find-missing-and-repeated-values/
 Enumeration
+
+231220 [6686/3974]
+[2966-M][~] https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/
+Greedy
+==========
+[628-E][*~] https://leetcode.com/problems/maximum-product-of-three-numbers/
+Greedy
+==========
+[637-E][*/~] https://leetcode.com/problems/average-of-levels-in-binary-tree/
+BFS
+==========
+[643-E][*~] https://leetcode.com/problems/maximum-average-subarray-i/
+Prefix Sum
