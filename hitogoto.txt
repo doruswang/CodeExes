@@ -1843,3 +1843,22 @@ BFS
 ==========
 [643-E][*~] https://leetcode.com/problems/maximum-average-subarray-i/
 Prefix Sum
+
+231221 [6512/3945]
+[645-E][~] https://leetcode.com/problems/set-mismatch/
+Counter(), set()
+==========
+[657-E][~] https://leetcode.com/problems/robot-return-to-origin/
+Counter()
+==========
+[671-E][~] https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/
+DFS
+==========
+[674-E][*/~] https://leetcode.com/problems/longest-continuous-increasing-subsequence/
+DP
+==========
+[680-E][*/~] https://leetcode.com/problems/valid-palindrome-ii/
+Two Pointers
+==========
+[2967-M][*/~] https://leetcode.com/problems/minimum-cost-to-make-array-equalindromic/
+Median, Greedy
