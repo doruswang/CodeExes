@@ -1862,3 +1862,16 @@ Two Pointers
 ==========
 [2967-M][*/~] https://leetcode.com/problems/minimum-cost-to-make-array-equalindromic/
 Median, Greedy
+
+231222 [6386/3879]
+[682-E][~] https://leetcode.com/problems/baseball-game/
+Simulation
+==========
+[1422-E][*~] https://leetcode.com/problems/maximum-score-after-splitting-a-string/
+Iteration
+==========
+[1671-H][*/~] https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/
+DP
+==========
+[2968-H][*/~] https://leetcode.com/problems/apply-operations-to-maximize-frequency-score/
+Sliding Window
