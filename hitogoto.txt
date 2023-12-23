@@ -1875,3 +1875,13 @@ DP
 ==========
 [2968-H][*/~] https://leetcode.com/problems/apply-operations-to-maximize-frequency-score/
 Sliding Window
+
+231223 [6288/3835]
+[1496-E][~] https://leetcode.com/problems/path-crossing/
+Simulation
+==========
+[693-E][~] https://leetcode.com/problems/binary-number-with-alternating-bits/
+Simulation
+==========
+[696-E][*/~] https://leetcode.com/problems/count-binary-substrings/
+Math
