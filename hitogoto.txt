@@ -1885,3 +1885,13 @@ Simulation
 ==========
 [696-E][*/~] https://leetcode.com/problems/count-binary-substrings/
 Math
+
+231224 [6277/3812]
+[1954-M][*/~] https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/
+Math
+==========
+[1758-E][*/~] https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/
+Transformation
+==========
+[717-E][*/~] https://leetcode.com/problems/1-bit-and-2-bit-characters/
+Simulation
