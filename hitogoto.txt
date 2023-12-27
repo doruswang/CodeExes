@@ -1895,3 +1895,45 @@ Transformation
 ==========
 [717-E][*/~] https://leetcode.com/problems/1-bit-and-2-bit-characters/
 Simulation
+
+231225 [6160/3766]
+[91-M][*/~] https://leetcode.com/problems/decode-ways/
+DP
+==========
+[1276-M][~] https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/
+Math
+==========
+[728-E][~] https://leetcode.com/problems/self-dividing-numbers/
+Simulation
+
+231226 [6054/3766]
+[1349-H] https://leetcode.com/problems/maximum-students-taking-exam/
+DP
+==========
+[747-E] https://leetcode.com/problems/largest-number-at-least-twice-of-others/
+Simulation
+==========
+[2970-E] https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/
+Simulation
+==========
+[2974-E] https://leetcode.com/problems/minimum-number-game/
+Simulation
+==========
+[766-E] https://leetcode.com/problems/toeplitz-matrix/
+Transformation
+
+231227 [6003/3700]
+[804-E] https://leetcode.com/problems/unique-morse-code-words/
+Simulation
+==========
+[1578-M] https://leetcode.com/problems/minimum-time-to-make-rope-colorful/
+Greedy
+==========
+[806-E] https://leetcode.com/problems/number-of-lines-to-write-string/
+Simulation
+==========
+[2971-M] https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/
+Greedy
+==========
+[2975-M] https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/
+Greedy
