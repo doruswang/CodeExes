@@ -1937,3 +1937,16 @@ Greedy
 ==========
 [2975-M] https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/
 Greedy
+
+231228 [6003/3642]
+[1531-M][*/~] https://leetcode.com/problems/string-compression-ii/
+DP
+==========
+[821-E][~] https://leetcode.com/problems/shortest-distance-to-a-character/
+Simulation
+==========
+[812-E][*/~] https://leetcode.com/problems/largest-triangle-area/
+Math
+==========
+[819-E][~] https://leetcode.com/problems/most-common-word/
+Simulation
