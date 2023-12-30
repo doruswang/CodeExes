@@ -1950,3 +1950,24 @@ Math
 ==========
 [819-E][~] https://leetcode.com/problems/most-common-word/
 Simulation
+
+231229 [-]
+[2972-H][*/~] https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-ii/
+Two Pointers
+==========
+[824-E][~] https://leetcode.com/problems/goat-latin/
+Simulation
+==========
+[830-E][~] https://leetcode.com/problems/positions-of-large-groups/
+Two Pointers
+==========
+[832-E][~] https://leetcode.com/problems/flipping-an-image/
+Simulation
+
+231230 [5866/3563]
+[1897-E][~] https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/
+Transformation
+==========
+[1185-E][*/~] https://leetcode.com/problems/day-of-the-week/
+Library Function
+Zeller Formula
