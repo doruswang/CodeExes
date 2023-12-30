@@ -1971,3 +1971,9 @@ Transformation
 [1185-E][*/~] https://leetcode.com/problems/day-of-the-week/
 Library Function
 Zeller Formula
+==========
+[836-E][*/~] https://leetcode.com/problems/rectangle-overlap/
+Math
+==========
+[868-E][~] https://leetcode.com/problems/binary-gap/
+Simulation
