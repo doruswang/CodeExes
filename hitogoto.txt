@@ -1977,3 +1977,16 @@ Math
 ==========
 [868-E][~] https://leetcode.com/problems/binary-gap/
 Simulation
+==========
+[2973-H][*/~] https://leetcode.com/problems/find-number-of-coins-to-place-in-tree-nodes/
+DFS + Greedy
+==========
+[2976-M][*/~] https://leetcode.com/problems/minimum-cost-to-convert-string-i/
+Floyd's Algo
+
+231231 [5722/3495]
+[1154-E][*/~] https://leetcode.com/problems/day-of-the-year/
+Simulation
+==========
+[2980-E][~] https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/
+Enumeration
