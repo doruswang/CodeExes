@@ -1990,3 +1990,22 @@ Simulation
 ==========
 [2980-E][~] https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/
 Enumeration
+
+240101 [5656/3479]
+[883-E][~] https://leetcode.com/problems/projection-area-of-3d-shapes/
+Simulation
+==========
+[884-E][~] https://leetcode.com/problems/uncommon-words-from-two-sentences/
+Simulation
+==========
+[892-E][~] https://leetcode.com/problems/surface-area-of-3d-shapes/
+Simulation
+==========
+[897-E][*/~] https://leetcode.com/problems/increasing-order-search-tree/
+DFS
+==========
+[908-E][~] https://leetcode.com/problems/smallest-range-i/
+Transformation
+==========
+[2977-H][*/~] https://leetcode.com/problems/minimum-cost-to-convert-string-ii/
+DP
