@@ -2009,3 +2009,16 @@ Transformation
 ==========
 [2977-H][*/~] https://leetcode.com/problems/minimum-cost-to-convert-string-ii/
 DP
+
+240102 [5517/3434]
+[2610-M][*~] https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/
+Greedy
+==========
+[466-H][*/~] https://leetcode.com/problems/count-the-repetitions/
+DP
+==========
+[914-E][*~] https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/
+Transformation
+==========
+[2981-M][~] https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/
+Enumeration
