@@ -2022,3 +2022,16 @@ Transformation
 ==========
 [2981-M][~] https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/
 Enumeration
+
+240103 [5517/3405]
+[2125-M][~] https://leetcode.com/problems/number-of-laser-beams-in-a-bank/
+Transformation
+==========
+[2487-M][*/~] https://leetcode.com/problems/remove-nodes-from-linked-list/
+Recursion
+==========
+[2982-M][*/~] https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii/
+Sliding Window
+==========
+[917-E][~] https://leetcode.com/problems/reverse-only-letters/
+Simulation
