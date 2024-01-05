@@ -2048,3 +2048,13 @@ Enumeration
 ==========
 [2983-H][*/~] https://leetcode.com/problems/palindrome-rearrangement-queries/
 Prefix Sum
+
+240105 [5396/3340]
+[929-E] https://leetcode.com/problems/unique-email-addresses/
+Simulation
+==========
+[933-E] https://leetcode.com/problems/number-of-recent-calls/
+Deque
+==========
+[1944-H] https://leetcode.com/problems/number-of-visible-people-in-a-queue/
+Monotonic Stack
