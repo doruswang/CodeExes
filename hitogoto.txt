@@ -2058,3 +2058,13 @@ Deque
 ==========
 [1944-H] https://leetcode.com/problems/number-of-visible-people-in-a-queue/
 Monotonic Stack
+
+240106 [5311/3313]
+[1235-H][*/~] https://leetcode.com/problems/maximum-profit-in-job-scheduling/
+DP
+==========
+[941-E][~] https://leetcode.com/problems/valid-mountain-array/
+Simulation
+==========
+[942-E][~] https://leetcode.com/problems/di-string-match/
+Deque
