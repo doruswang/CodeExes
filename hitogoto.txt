@@ -2068,3 +2068,13 @@ Simulation
 ==========
 [942-E][~] https://leetcode.com/problems/di-string-match/
 Deque
+
+240107 [5267/3285]
+[961-E] https://leetcode.com/problems/n-repeated-element-in-size-2n-array/
+Counter()
+==========
+[446-H] https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
+DP
+==========
+[10031-E] https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/
+Simulation
