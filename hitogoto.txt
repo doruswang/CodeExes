@@ -2078,3 +2078,16 @@ DP
 ==========
 [10031-E] https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/
 Simulation
+
+240108 [5267/3256]
+[447-M][*/~] https://leetcode.com/problems/number-of-boomerangs/
+Hash Table
+==========
+[965-E][*~] https://leetcode.com/problems/univalued-binary-tree/
+DFS
+==========
+[10035-E][~] https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/
+Simulation
+==========
+[10032-M][*/~] https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/
+Transformation
