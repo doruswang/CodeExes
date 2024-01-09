@@ -2091,3 +2091,19 @@ Simulation
 ==========
 [10032-M][*/~] https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/
 Transformation
+
+240109 [5267/3217]
+[976-E][*~] https://leetcode.com/problems/largest-perimeter-triangle/
+Transformation
+==========
+[999-E][~] https://leetcode.com/problems/available-captures-for-rook/
+Simulation
+==========
+[1005-E][*~] https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/
+Greedy
+==========
+[2998-M][*/~] https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/
+DFS
+==========
+[3001-M][*/~] https://leetcode.com/problems/minimum-moves-to-capture-the-queen/
+Simulation
