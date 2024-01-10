@@ -2107,3 +2107,16 @@ DFS
 ==========
 [3001-M][*/~] https://leetcode.com/problems/minimum-moves-to-capture-the-queen/
 Simulation
+
+240110 [5068/3169]
+[2385-M][*/~] https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/
+BFS
+==========
+[1013-E][*/~] https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/
+Transformation
+==========
+[2999-H][*/~] https://leetcode.com/problems/count-the-number-of-powerful-integers/
+Digit DP
+==========
+[3002-M][*/~] https://leetcode.com/problems/maximum-size-of-a-set-after-removals/
+Transformation
