@@ -2120,3 +2120,16 @@ Digit DP
 ==========
 [3002-M][*/~] https://leetcode.com/problems/maximum-size-of-a-set-after-removals/
 Transformation
+
+240111 [5008/3148]
+[1021-E][*/~] https://leetcode.com/problems/remove-outermost-parentheses/
+Simulation | Stack
+==========
+[1018-E][*/~] https://leetcode.com/problems/binary-prefix-divisible-by-5/
+Transformation
+==========
+[2645-M][*/~] https://leetcode.com/problems/minimum-additions-to-make-valid-string/
+Transformation | Two Pointers
+==========
+[3003-H][/~] https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/
+DP
