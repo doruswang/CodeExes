@@ -2147,3 +2147,18 @@ Counter()
 ==========
 [2182-M] https://leetcode.com/problems/construct-string-with-repeat-limit/
 Greedy
+
+240114 [4909/3094]
+[1051-E][~] https://leetcode.com/problems/height-checker/
+Simulation
+==========
+[1068-E][/~] https://leetcode.com/problems/product-sales-analysis-i/
+SELECT p.product_name, s.year, s.price
+FROM Sales s LEFT JOIN Product p
+ON p.product_id = s.product_id
+==========
+[1075-E][/~] https://leetcode.com/problems/project-employees-i/
+SELECT p.project_id, ROUND(AVG(e.experience_years), 2) AS average_years
+FROM Project p JOIN Employee e
+ON p.employee_id = e.employee_id
+GROUP BY p.project_id
