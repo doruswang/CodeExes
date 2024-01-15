@@ -2162,3 +2162,13 @@ SELECT p.project_id, ROUND(AVG(e.experience_years), 2) AS average_years
 FROM Project p JOIN Employee e
 ON p.employee_id = e.employee_id
 GROUP BY p.project_id
+
+240115 [4857/3094]
+[82-M][*/~] https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+Iteration
+==========
+[1078-E][~] https://leetcode.com/problems/occurrences-after-bigram/
+Simulation
+==========
+[1103-E][~] https://leetcode.com/problems/distribute-candies-to-people/
+Simulation
