@@ -2204,3 +2204,16 @@ GROUP BY id
 ==========
 [1184-E][*~] https://leetcode.com/problems/distance-between-bus-stops/
 Transformation
+
+240117 [4733/3012]
+[1207-E][~] https://leetcode.com/problems/unique-number-of-occurrences/
+Counter()
+==========
+[1211-E][/~] https://leetcode.com/problems/queries-quality-and-percentage/
+SELECT
+    query_name,
+    ROUND(AVG(rating / position), 2) AS quality,
+    ROUND(AVG(rating < 3)*100, 2) AS poor_query_percentage
+FROM Queries
+WHERE query_name IS NOT NULL
+GROUP BY query_name
