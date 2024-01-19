@@ -2217,3 +2217,29 @@ SELECT
 FROM Queries
 WHERE query_name IS NOT NULL
 GROUP BY query_name
+
+240118 [4714/3005]
+[1251-E][*/~] https://leetcode.com/problems/average-selling-price/
+SELECT p.product_id, IFNULL(ROUND(SUM(price*units)/SUM(units), 2), 0) AS average_price
+FROM Prices p LEFT JOIN UnitsSold u
+ON p.product_id = u.product_id AND u.purchase_date BETWEEN start_date AND end_date
+GROUP BY product_id
+==========
+[2171-M][*/~] https://leetcode.cn/problems/removing-minimum-number-of-magic-beans/
+Transformation
+
+240119 [4714/3004]
+[1260-E][*~] https://leetcode.com/problems/shift-2d-grid/
+Simulation
+==========
+[1275-E][*~] https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/
+Simulation
+==========
+[1290-E][*~] https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
+Simulation
+==========
+[1295-E][~] https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
+Simulation
+==========
+[1299-E][~] https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/
+Simulation
