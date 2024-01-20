@@ -2243,3 +2243,13 @@ Simulation
 ==========
 [1299-E][~] https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/
 Simulation
+
+240120 [4615/2965]
+[1304-E][~] https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/
+Transformation
+==========
+[1309-E][~] https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/
+Simulation
+==========
+[1313-E][~] https://leetcode.com/problems/decompress-run-length-encoded-list/
+Simulation
