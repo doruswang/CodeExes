@@ -2267,3 +2267,6 @@ FROM Products P JOIN Orders O ON P.product_id = O.product_id
 WHERE LEFT(order_date, 7) = "2020-02"
 GROUP BY P.product_id
 HAVING SUM(O.unit) >= 100
+==========
+[3010-E][~] https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/
+Greedy
