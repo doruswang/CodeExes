@@ -2253,3 +2253,17 @@ Simulation
 ==========
 [1313-E][~] https://leetcode.com/problems/decompress-run-length-encoded-list/
 Simulation
+
+240121 [4578/2939]
+[410-H][*/~] https://leetcode.com/problems/split-array-largest-sum/
+Binary Search
+==========
+[1323-E][~] https://leetcode.com/problems/maximum-69-number/
+Simulation
+==========
+[1327-E][*/~] https://leetcode.com/problems/list-the-products-ordered-in-a-period/
+SELECT P.product_name AS product_name, SUM(O.unit) AS unit
+FROM Products P JOIN Orders O ON P.product_id = O.product_id
+WHERE LEFT(order_date, 7) = "2020-02"
+GROUP BY P.product_id
+HAVING SUM(O.unit) >= 100
