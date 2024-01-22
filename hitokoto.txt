@@ -2270,3 +2270,16 @@ HAVING SUM(O.unit) >= 100
 ==========
 [3010-E][~] https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/
 Greedy
+
+240122 [4539/2918]
+[670-M][*~] https://leetcode.com/problems/maximum-swap/
+Greedy
+==========
+[1331-E][~] https://leetcode.com/problems/rank-transform-of-an-array/
+Hashmap
+==========
+[3011-M][*/~] https://leetcode.com/problems/find-if-array-can-be-sorted/
+Transformation
+==========
+[3014-E][~] https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/
+Greedy
