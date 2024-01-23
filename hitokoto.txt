@@ -2283,3 +2283,16 @@ Transformation
 ==========
 [3014-E][~] https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/
 Greedy
+
+240123 [4482/2889]
+[1239-M][*/~] https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
+Backtracking
+==========
+[1332-E][*/~] https://leetcode.com/problems/remove-palindromic-subsequences/
+Transformation
+==========
+[3015-M][*/~] https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i/
+BFS
+==========
+[3012-M][*/~] https://leetcode.com/problems/minimize-length-of-array-using-operations/
+Transformation
