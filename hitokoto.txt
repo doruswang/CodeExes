@@ -2296,3 +2296,25 @@ BFS
 ==========
 [3012-M][*/~] https://leetcode.com/problems/minimize-length-of-array-using-operations/
 Transformation
+
+240124 [4419/2865]
+[1346-E][~] https://leetcode.com/problems/check-if-n-and-its-double-exist/
+Simulation
+==========
+[1360-E][*/~] https://leetcode.com/problems/number-of-days-between-two-dates/
+Simulation
+==========
+[1365-E][*~] https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
+Transformation
+==========
+[1370-E][*/~] https://leetcode.com/problems/increasing-decreasing-string/
+Counting
+==========
+[3013-H][*/~] https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/
+SortedList
+==========
+[3016-M][*/~] https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/
+Transformation
+==========
+[3017-H][*/~] https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-ii/
+Transformation
