@@ -2318,3 +2318,13 @@ Transformation
 ==========
 [3017-H][*/~] https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-ii/
 Transformation
+
+230125 [4331/2823]
+[1374-E][~] https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/
+Simulation
+==========
+[1379-E][*/~] https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/
+Recursion
+==========
+[1380-E][*~] https://leetcode.com/problems/lucky-numbers-in-a-matrix/
+Transformation
