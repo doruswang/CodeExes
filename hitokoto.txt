@@ -2319,7 +2319,7 @@ Transformation
 [3017-H][*/~] https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-ii/
 Transformation
 
-230125 [4331/2823]
+240125 [4331/2823]
 [1374-E][~] https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/
 Simulation
 ==========
@@ -2328,3 +2328,16 @@ Recursion
 ==========
 [1380-E][*~] https://leetcode.com/problems/lucky-numbers-in-a-matrix/
 Transformation
+
+240126 [4290/2805]
+[576-M][*/~] https://leetcode.com/problems/out-of-boundary-paths/
+DP
+==========
+[1389-E][*~] https://leetcode.com/problems/create-target-array-in-the-given-order/
+Simulation
+==========
+[1399-E][~] https://leetcode.com/problems/count-largest-group/
+Counter()
+==========
+[1403-E][~] https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/
+Greedy
