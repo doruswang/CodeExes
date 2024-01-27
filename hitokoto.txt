@@ -2341,3 +2341,13 @@ Counter()
 ==========
 [1403-E][~] https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/
 Greedy
+
+240127 [4240/2781]
+[629-H][*/~] https://leetcode.com/problems/k-inverse-pairs-array/
+DP
+==========
+[1408-E][~] https://leetcode.com/problems/string-matching-in-an-array/
+Simulation
+==========
+[1413-E][~] https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/
+Simulation 
