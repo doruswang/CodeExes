@@ -2350,4 +2350,11 @@ DP
 Simulation
 ==========
 [1413-E][~] https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/
-Simulation 
+Simulation
+
+240128 [4214/2759]
+[1074-H][*/~] https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/
+Prefix Sum
+==========
+[365-M][*/~] https://leetcode.com/problems/water-and-jug-problem/
+DFS
