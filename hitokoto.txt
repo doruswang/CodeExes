@@ -2358,3 +2358,13 @@ Prefix Sum
 ==========
 [365-M][*/~] https://leetcode.com/problems/water-and-jug-problem/
 DFS
+
+240129 [4203/2750]
+[514-H][*/~] https://leetcode.com/problems/freedom-trail/
+BFS
+==========
+[1417-E][~] https://leetcode.com/problems/reformat-the-string/
+Simulation
+==========
+[3019-E][~] https://leetcode.com/problems/number-of-changing-keys/
+Simulation
