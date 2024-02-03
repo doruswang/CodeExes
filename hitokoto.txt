@@ -2379,3 +2379,15 @@ DP
 ==========
 [2916-H][*/~] https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/
 Segment Tree
+
+240202 [-]
+
+240203 [4154/2720]
+[1291-M][*/~] https://leetcode.com/problems/sequential-digits/
+Deque
+==========
+[1686-M][*/~] https://leetcode.com/problems/stone-game-vi/
+Greedy
+==========
+[1690-M][*/~] https://leetcode.com/problems/stone-game-vii/
+DP
