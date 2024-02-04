@@ -2391,3 +2391,16 @@ Greedy
 ==========
 [1690-M][*/~] https://leetcode.com/problems/stone-game-vii/
 DP
+
+240204 [4128/2697]
+[76-H][*/~] https://leetcode.com/problems/minimum-window-substring/
+Two Pointers
+==========
+[1446-E][~] https://leetcode.com/problems/consecutive-characters/
+Two Pointers
+==========
+[3024-E][~] https://leetcode.com/problems/type-of-triangle-ii/
+Simulation
+==========
+[3028-E][~] https://leetcode.com/problems/ant-on-the-boundary/
+Simulation
