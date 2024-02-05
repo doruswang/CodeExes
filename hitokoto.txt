@@ -2404,3 +2404,16 @@ Simulation
 ==========
 [3028-E][~] https://leetcode.com/problems/ant-on-the-boundary/
 Simulation
+
+240205 [4040/2661]
+[1450-E][~] https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/
+Simulation
+==========
+[3029-M][~] https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-i/
+Greedy
+==========
+[1696-M][*/~] https://leetcode.com/problems/jump-game-vi/
+DP
+==========
+[3025-M][*/~] https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/
+Transformation
