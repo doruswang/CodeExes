@@ -2417,3 +2417,32 @@ DP
 ==========
 [3025-M][*/~] https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/
 Transformation
+
+240206 [4045/2631]
+[49-M][*~] https://leetcode.com/problems/group-anagrams/
+Simulation
+==========
+[LCP 30-M][*/~] https://leetcode.cn/problems/p0NxJO/
+Greedy + Heap
+==========
+[3026-M][*/~] https://leetcode.com/problems/maximum-good-subarray-sum/
+Prefix Sum
+==========
+[3030-M][*/~] https://leetcode.com/problems/find-the-grid-of-region-average/
+Simulation
+
+240207 [3985/2608]
+[1486-E][~] https://leetcode.com/problems/xor-operation-in-an-array/
+Simulation
+==========
+[1455-E][~] https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/
+Simulation
+==========
+[3027-H][*/~] https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/
+Transformation
+==========
+[3031-H][*/~] https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-ii/
+KMP
+==========
+[2641-M][*/~] https://leetcode.com/problems/cousins-in-binary-tree-ii/
+BFS
