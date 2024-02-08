@@ -2446,3 +2446,11 @@ KMP
 ==========
 [2641-M][*/~] https://leetcode.com/problems/cousins-in-binary-tree-ii/
 BFS
+
+240208 [3985/2580]
+[1518-E][~] https://leetcode.com/problems/water-bottles/
+Simulation
+==========
+[279-M][*/~] https://leetcode.com/problems/perfect-squares/
+DP
+Math
