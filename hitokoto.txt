@@ -2462,3 +2462,13 @@ DP
 ==========
 [236-M][*/~] https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 Recursion
+
+240210 [3921/2551]
+[1528-E][~] https://leetcode.com/problems/shuffle-string/
+Simulation
+==========
+[1534-E][~] https://leetcode.com/problems/count-good-triplets/
+Simulation
+==========
+[1544-E][*~] https://leetcode.com/problems/make-the-string-great/
+Stack
