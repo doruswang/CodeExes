@@ -2472,3 +2472,13 @@ Simulation
 ==========
 [1544-E][*~] https://leetcode.com/problems/make-the-string-great/
 Stack
+
+240211 [3887/2535]
+[1463-H][*/~] https://leetcode.com/problems/cherry-pickup-ii/
+DP
+==========
+[1566-E][~] https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/
+Simulation
+==========
+[3033-E][~] https://leetcode.com/problems/modify-the-matrix/
+Simulation
