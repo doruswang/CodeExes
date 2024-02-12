@@ -2482,3 +2482,13 @@ Simulation
 ==========
 [3033-E][~] https://leetcode.com/problems/modify-the-matrix/
 Simulation
+
+240212 [3887/2510]
+[1556-E][~] https://leetcode.com/problems/thousand-separator/
+Simulation
+==========
+[1560-E][~] https://leetcode.com/problems/most-visited-sector-in-a-circular-track/
+Simulation
+==========
+[3034-M][~] https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i/
+Simulation
