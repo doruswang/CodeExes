@@ -2492,3 +2492,13 @@ Simulation
 ==========
 [3034-M][~] https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i/
 Simulation
+
+240213 [3847/2490]
+[1668-E][~] https://leetcode.com/problems/maximum-repeating-substring/
+Simulation
+==========
+[1672-E][~] https://leetcode.com/problems/richest-customer-wealth/
+Simulation
+==========
+[1710-E][~] https://leetcode.com/problems/maximum-units-on-a-truck/
+Greedy
