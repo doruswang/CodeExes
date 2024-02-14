@@ -2502,3 +2502,16 @@ Simulation
 ==========
 [1710-E][~] https://leetcode.com/problems/maximum-units-on-a-truck/
 Greedy
+
+240214 [3808/2469]
+[102-M][*/~] https://leetcode.com/problems/binary-tree-level-order-traversal/
+BFS
+==========
+[2149-M][*/~] https://leetcode.com/problems/rearrange-array-elements-by-sign/
+Two Pointers
+==========
+[3035-M][*/~] https://leetcode.com/problems/maximum-palindromes-after-operations/
+Greedy
+==========
+[3036-H][*/~] https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii/
+KMP
