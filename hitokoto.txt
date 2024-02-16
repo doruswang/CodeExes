@@ -2515,3 +2515,23 @@ Greedy
 ==========
 [3036-H][*/~] https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii/
 KMP
+
+240215 [3772/2448]
+[107-M][*/~] https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
+BFS
+==========
+[1640-E][*/~] https://leetcode.com/problems/check-array-formation-through-concatenation/
+Hash Table
+==========
+[1720-E][*/~] https://leetcode.com/problems/decode-xored-array/
+Simulation
+
+240216 [3748/2426]
+[1481-M][*/~] https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/
+Counter()
+==========
+[1684-E][~] https://leetcode.com/problems/count-the-number-of-consistent-strings/
+set()
+==========
+[1725-E][~] https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/
+Simulation
