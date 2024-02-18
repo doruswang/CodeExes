@@ -2535,3 +2535,13 @@ set()
 ==========
 [1725-E][~] https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/
 Simulation
+
+240217 [3704/2387]
+[1832-E][~] https://leetcode.com/problems/check-if-the-sentence-is-pangram/
+Simulation
+==========
+[3038-E][~] https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-i/
+Simulation
+==========
+[2402-H][*/~] https://leetcode.com/problems/meeting-rooms-iii/
+Heap
