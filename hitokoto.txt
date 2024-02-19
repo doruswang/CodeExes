@@ -2536,7 +2536,14 @@ set()
 [1725-E][~] https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/
 Simulation
 
-240217 [3704/2387]
+240217 [-]
+[1642-M][*/~] https://leetcode.com/problems/furthest-building-you-can-reach/
+Heap
+==========
+[429-M][/~] https://leetcode.com/problems/n-ary-tree-level-order-traversal/
+BFS
+
+240218 [3704/2387]
 [1832-E][~] https://leetcode.com/problems/check-if-the-sentence-is-pangram/
 Simulation
 ==========
@@ -2545,3 +2552,16 @@ Simulation
 ==========
 [2402-H][*/~] https://leetcode.com/problems/meeting-rooms-iii/
 Heap
+
+240219 [3681/2366]
+[1507-E][~] https://leetcode.com/problems/reformat-date/
+Hash Table
+==========
+[1576-E][~] https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/
+Simulation
+==========
+[3042-E][~] https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/
+Simulation
+==========
+[3043-M][*+~] https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/
+set()
