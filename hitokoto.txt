@@ -2565,3 +2565,16 @@ Simulation
 ==========
 [3043-M][*+~] https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/
 set()
+
+240220 [3652/2344]
+[1598-E][*~] https://leetcode.com/problems/crawler-log-folder/
+Simulation
+==========
+[105-M][*/~] https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+DFS
+==========
+[3044-M][*/~] https://leetcode.com/problems/most-frequent-prime/
+Enumeration
+==========
+[3046-H][*/~] https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii/
+Trie
