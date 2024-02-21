@@ -2578,3 +2578,24 @@ Enumeration
 ==========
 [3046-H][*/~] https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii/
 Trie
+
+240221 [3626/2316]
+[1633-E][*/~] https://leetcode.com/problems/percentage-of-users-attended-a-contest/
+SELECT contest_id,
+       ROUND(COUNT(DISTINCT user_id) / (SELECT COUNT(user_id) FROM Users) * 100, 2) as percentage
+FROM Register
+GROUP BY contest_id
+ORDER BY percentage DESC, contest_id
+==========
+[1656-E][*/~] https://leetcode.com/problems/design-an-ordered-stream/
+Simulation
+==========
+[1661-E][*/~] https://leetcode.com/problems/average-time-of-process-per-machine/
+SELECT
+    machine_id,
+    ROUND(AVG(IF(activity_type='end', timestamp, -timestamp))*2, 3) AS processing_time
+FROM Activity
+GROUP BY machine_id;
+==========
+[1678-E][~] https://leetcode.com/problems/goal-parser-interpretation/
+Simulation
