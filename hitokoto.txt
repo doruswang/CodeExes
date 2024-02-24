@@ -2615,6 +2615,7 @@ ORDER BY employee_id
 [889-M][*/~] https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 DFS
 
+240223 [-]
 [2583-M][*/~] https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/
 BFS
 ==========
@@ -2623,3 +2624,10 @@ Simulation
 ==========
 [1742-E][~] https://leetcode.com/problems/maximum-number-of-balls-in-a-box/
 Counter()
+
+240224 [3563/2263]
+[2476-M][*/~] https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/
+DFS + Binary Search
+==========
+[2092-H][*/~] https://leetcode.com/problems/find-all-people-with-secret/
+Union Find
