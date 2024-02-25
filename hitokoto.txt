@@ -2631,3 +2631,26 @@ DFS + Binary Search
 ==========
 [2092-H][*/~] https://leetcode.com/problems/find-all-people-with-secret/
 Union Find
+
+240225 [3507/2258]
+[1773-E][~] https://leetcode.com/problems/count-items-matching-a-rule/
+Simulation
+==========
+[1779-E][~] https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/
+Simulation
+==========
+[1784-E][~] https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/
+Simulation
+==========
+[1789-E][/~] https://leetcode.com/problems/primary-department-for-each-employee/
+SELECT employee_id, department_id
+FROM Employee
+WHERE primary_flag = 'Y'
+UNION
+SELECT employee_id, department_id
+FROM Employee
+GROUP BY employee_id
+HAVING COUNT(employee_id) = 1
+==========
+[1790-E][~] https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/
+Simulation
