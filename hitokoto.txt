@@ -2664,3 +2664,16 @@ Counter()
 ==========
 [3046-E][~] https://leetcode.com/problems/split-the-array/
 Counter()
+
+240227 [3440/2227]
+[1800-E][~] https://leetcode.com/problems/maximum-ascending-subarray-sum/
+Enumeration
+==========
+[1805-E][/~] https://leetcode.com/problems/number-of-different-integers-in-a-string/
+Simulation
+==========
+[1812-E][~] https://leetcode.com/problems/determine-color-of-a-chessboard-square/
+Simulation
+==========
+[3047-M][/~] https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/
+Enumeration
