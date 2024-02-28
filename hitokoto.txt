@@ -2677,3 +2677,16 @@ Simulation
 ==========
 [3047-M][/~] https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/
 Enumeration
+
+240228 [3397/2208]
+[1844-E][~] https://leetcode.com/problems/replace-all-digits-with-characters/
+Simulation
+==========
+[1848-E][~] https://leetcode.com/problems/minimum-distance-to-the-target-element/
+Simulation
+==========
+[513-M][*/~] https://leetcode.com/problems/find-bottom-left-tree-value/
+BFS
+==========
+[3048-M][*/~] https://leetcode.com/problems/earliest-second-to-mark-indices-i/
+Binary Search
