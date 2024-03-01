@@ -2700,3 +2700,13 @@ DP
 ==========
 [1609-M][*/~] https://leetcode.com/problems/even-odd-tree/
 BFS
+
+240301 [3327/2173]
+[1854-E][~] https://leetcode.com/problems/maximum-population-year/
+Counter()
+==========
+[1859-E][~] https://leetcode.com/problems/sorting-the-sentence/
+Simulation
+==========
+[1869-E][~] https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/
+Simulation
