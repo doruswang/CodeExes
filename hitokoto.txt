@@ -2710,3 +2710,10 @@ Simulation
 ==========
 [1869-E][~] https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/
 Simulation
+
+240302 [3298/2153]
+[1876-E][~] https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/
+Simulation
+==========
+[2368-M][*/~] https://leetcode.com/problems/reachable-nodes-with-restrictions/
+DFS
