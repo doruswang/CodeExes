@@ -2717,3 +2717,16 @@ Simulation
 ==========
 [2368-M][*/~] https://leetcode.com/problems/reachable-nodes-with-restrictions/
 DFS
+
+240303 [3292/2145]
+[1880-E][~] https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/
+Simulation
+==========
+[3065-E][~] https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/
+Simulation
+==========
+[1925-E][*~] https://leetcode.com/problems/count-square-sum-triples/
+set()
+==========
+[1886-E][*/~] https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/
+Simulation
