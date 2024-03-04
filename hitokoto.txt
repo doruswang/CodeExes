@@ -2730,3 +2730,16 @@ set()
 ==========
 [1886-E][*/~] https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/
 Simulation
+
+240304 [3268/2127]
+[1935-E][~] https://leetcode.com/problems/maximum-number-of-words-you-can-type/
+Simulation
+==========
+[948-M][*/~] https://leetcode.com/problems/bag-of-tokens/
+Greedy + Two Pointers
+==========
+[3066-M][*/~] https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/
+Heap
+==========
+[3069-E][~] https://leetcode.com/problems/distribute-elements-into-two-arrays-i/
+Simulation 
