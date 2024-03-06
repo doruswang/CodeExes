@@ -2742,4 +2742,33 @@ Greedy + Two Pointers
 Heap
 ==========
 [3069-E][~] https://leetcode.com/problems/distribute-elements-into-two-arrays-i/
-Simulation 
+Simulation
+
+240305 [3247/2112]
+[1976-M][*/~] https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/
+Dijkstra
+==========
+[1941-E][~] https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/
+Simulation
+==========
+[1945-E][~] https://leetcode.com/problems/sum-of-digits-of-string-after-convert/
+Simulation
+==========
+[3067-M][*/~] https://leetcode.com/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network/
+DFS
+==========
+[3070-M][*/~] https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/
+Prefix Sum
+
+240306 [3206/2082]
+[1952-E][~] https://leetcode.com/problems/three-divisors/
+Simulation
+==========
+[1957-E][*~] https://leetcode.com/problems/delete-characters-to-make-fancy-string/
+Simulation
+==========
+[3071-M][*&~] https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/
+Enumeration
+==========
+[3068-H][*/~] https://leetcode.com/problems/find-the-maximum-sum-of-node-values/
+DP
