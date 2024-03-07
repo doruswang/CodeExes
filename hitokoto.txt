@@ -2772,3 +2772,13 @@ Enumeration
 ==========
 [3068-H][*/~] https://leetcode.com/problems/find-the-maximum-sum-of-node-values/
 DP
+
+240307 [3177/2065]
+[2575-M][*/~] https://leetcode.com/problems/find-the-divisibility-array-of-a-string/
+Math
+==========
+[1967-E][~] https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/
+Simulation
+==========
+[3072-H][*/~] https://leetcode.com/problems/distribute-elements-into-two-arrays-ii/
+SortedList
