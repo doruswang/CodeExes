@@ -2782,3 +2782,17 @@ Simulation
 ==========
 [3072-H][*/~] https://leetcode.com/problems/distribute-elements-into-two-arrays-ii/
 SortedList
+
+240308 [3151/2048]
+[1978-E][/~] https://leetcode.com/problems/employees-whose-manager-left-the-company/
+SELECT employee_id FROM Employees
+WHERE manager_id NOT IN (
+    SELECT employee_id FROM Employees
+) AND salary < 30000
+ORDER BY employee_id;
+==========
+[1984-E][~] https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/
+Greedy
+==========
+[3005-E][~] https://leetcode.com/problems/count-elements-with-maximum-frequency/
+Counter()
