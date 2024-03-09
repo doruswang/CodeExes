@@ -2796,3 +2796,10 @@ Greedy
 ==========
 [3005-E][~] https://leetcode.com/problems/count-elements-with-maximum-frequency/
 Counter()
+
+240309 [3127/2029]
+[2006-E][~] https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/
+Simulation
+==========
+[2386-H][/~] https://leetcode.com/problems/find-the-k-sum-of-an-array/
+Heap
