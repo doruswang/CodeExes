@@ -2803,3 +2803,10 @@ Simulation
 ==========
 [2386-H][/~] https://leetcode.com/problems/find-the-k-sum-of-an-array/
 Heap
+
+240310 [3113/2026]
+[2022-E][~] https://leetcode.com/problems/convert-1d-array-into-2d-array/
+Simulation
+==========
+[299-M][~] https://leetcode.com/problems/bulls-and-cows/
+Simulation
