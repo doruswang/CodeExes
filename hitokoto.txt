@@ -2810,3 +2810,13 @@ Simulation
 ==========
 [299-M][~] https://leetcode.com/problems/bulls-and-cows/
 Simulation
+
+240311 [3097/2022]
+[2129-E][~] https://leetcode.com/problems/capitalize-the-title/
+Simulation
+==========
+[3074-E][~] https://leetcode.com/problems/apple-redistribution-into-boxes/
+Greedy
+==========
+[791-M][~] https://leetcode.com/problems/custom-sort-string/
+Counter()
