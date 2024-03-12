@@ -2820,3 +2820,13 @@ Greedy
 ==========
 [791-M][~] https://leetcode.com/problems/custom-sort-string/
 Counter()
+
+240312 [3073/2008]
+[1261-M][*/~] https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/
+Bit Manipulation
+==========
+[2057-E][~] https://leetcode.com/problems/smallest-index-with-equal-value/
+Simulation
+==========
+[3075-M][~] https://leetcode.com/problems/maximize-happiness-of-selected-children/
+Greedy
