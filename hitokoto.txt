@@ -2830,3 +2830,26 @@ Simulation
 ==========
 [3075-M][~] https://leetcode.com/problems/maximize-happiness-of-selected-children/
 Greedy
+
+240313 [3054/1997]
+[2068-E][~] https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/
+Simulation
+==========
+[2062-E][*~] https://leetcode.com/problems/count-vowel-substrings-of-a-string/
+Simulation
+==========
+[3076-M][*~] https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/
+Hash Map
+
+240314 [3037/1983]
+[2078-E][~] https://leetcode.com/problems/two-furthest-houses-with-different-colors/
+Greedy
+==========
+[2073-E][*~] https://leetcode.com/problems/time-needed-to-buy-tickets/
+Simulation
+==========
+[930-M][*/~] https://leetcode.com/problems/binary-subarrays-with-sum/
+Prefix Sum
+==========
+[3077-H][*/~] https://leetcode.com/problems/maximum-strength-of-k-disjoint-subarrays/
+DP
