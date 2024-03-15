@@ -2853,3 +2853,10 @@ Prefix Sum
 ==========
 [3077-H][*/~] https://leetcode.com/problems/maximum-strength-of-k-disjoint-subarrays/
 DP
+
+240315 [3010/1953]
+[238-M][~] https://leetcode.com/problems/product-of-array-except-self/
+Simulation
+==========
+[2312-H][*/~] https://leetcode.com/problems/selling-pieces-of-wood/
+DP
