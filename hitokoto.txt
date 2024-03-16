@@ -2860,3 +2860,13 @@ Simulation
 ==========
 [2312-H][*/~] https://leetcode.com/problems/selling-pieces-of-wood/
 DP
+
+240316 [2996/1946]
+[525-M][*/~] https://leetcode.com/problems/contiguous-array/
+Greedy + Hash Map
+==========
+[2089-E][~] https://leetcode.com/problems/find-target-indices-after-sorting-array/
+Simulation
+==========
+[2094-E][~] https://leetcode.com/problems/finding-3-digit-even-numbers/
+Simulation
