@@ -2870,3 +2870,16 @@ Simulation
 ==========
 [2094-E][~] https://leetcode.com/problems/finding-3-digit-even-numbers/
 Simulation
+
+240317 [2974/1940]
+[310-M][*/~] https://leetcode.com/problems/minimum-height-trees/
+BFS
+==========
+[2099-E][~] https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/
+Greedy
+==========
+[2114-E][~] https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/
+Simulation
+==========
+[3079-E][~] https://leetcode.com/problems/find-the-sum-of-encrypted-integers/
+Simulation
