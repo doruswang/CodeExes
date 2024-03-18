@@ -2883,3 +2883,19 @@ Simulation
 ==========
 [3079-E][~] https://leetcode.com/problems/find-the-sum-of-encrypted-integers/
 Simulation
+
+240318 [2942/1917]
+[3080-M][*/~] https://leetcode.com/problems/mark-elements-on-array-by-performing-queries/
+Heap
+==========
+[2119-E][~] https://leetcode.com/problems/a-number-after-a-double-reversal/
+Simulation
+==========
+[2124-E][~] https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/
+Simulation
+==========
+[2133-E][~] https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/
+Simulation (zip(*mat))
+==========
+[3083-E][~] https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/
+Simulation
