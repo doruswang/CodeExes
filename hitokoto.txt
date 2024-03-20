@@ -2918,3 +2918,19 @@ Greedy
 ==========
 [2148-E][~] https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/
 Simulation
+
+240320 [2865/1874]
+[2154-E][~] https://leetcode.com/problems/keep-multiplying-found-values-by-two/
+Simulation
+==========
+[2160-E][~] https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/
+Simulation
+==========
+[1969-M][*/~] https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements/
+Greedy
+==========
+[3082-H][*/~] https://leetcode.com/problems/find-the-sum-of-the-power-of-all-subsequences/
+DP
+==========
+[3085-M][*/~] https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/
+Greedy
