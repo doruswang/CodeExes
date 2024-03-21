@@ -2945,5 +2945,5 @@ Simulation
 [2176-E][~] https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/
 Simulation
 ==========
-[3086-H][~] https://leetcode.com/problems/minimum-moves-to-pick-k-ones/
+[3086-H][*/~] https://leetcode.com/problems/minimum-moves-to-pick-k-ones/
 Prefix Sum
