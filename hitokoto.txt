@@ -2934,3 +2934,16 @@ DP
 ==========
 [3085-M][*/~] https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/
 Greedy
+
+240321 [2827/1843]
+[2164-E][~] https://leetcode.com/problems/sort-even-and-odd-indices-independently/
+Simulation
+==========
+[2169-E][~] https://leetcode.com/problems/count-operations-to-obtain-zero/
+Simulation
+==========
+[2176-E][~] https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/
+Simulation
+==========
+[3086-H][~] https://leetcode.com/problems/minimum-moves-to-pick-k-ones/
+Prefix Sum
