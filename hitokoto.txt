@@ -2947,3 +2947,10 @@ Simulation
 ==========
 [3086-H][*/~] https://leetcode.com/problems/minimum-moves-to-pick-k-ones/
 Prefix Sum
+
+240322 [2802/1831]
+[2190-E][~] https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/
+Counter()
+==========
+[2617-H][*/~] https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid/
+Heap
