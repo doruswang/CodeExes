@@ -2954,3 +2954,13 @@ Counter()
 ==========
 [2617-H][*/~] https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid/
 Heap
+
+240323 [2793/1827]
+[2194-E][~] https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/
+Simulation
+==========
+[2200-E][~] https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/
+Simulation
+==========
+[2206-E][~] https://leetcode.com/problems/divide-array-into-equal-pairs/
+Simulation
