@@ -2964,3 +2964,13 @@ Simulation
 ==========
 [2206-E][~] https://leetcode.com/problems/divide-array-into-equal-pairs/
 Simulation
+
+240324 [2762/1811]
+[322-M][*/~] https://leetcode.com/problems/coin-change/
+DP
+==========
+[2210-E][~] https://leetcode.com/problems/count-hills-and-valleys-in-an-array/
+Simulation
+==========
+[2220-E][*/~] https://leetcode.com/problems/minimum-bit-flips-to-convert-number/
+Bit Manipulation
