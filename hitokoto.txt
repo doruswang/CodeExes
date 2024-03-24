@@ -2974,3 +2974,12 @@ Simulation
 ==========
 [2220-E][*/~] https://leetcode.com/problems/minimum-bit-flips-to-convert-number/
 Bit Manipulation
+==========
+[3090-E][~] https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/
+Simulation
+==========
+[3091-M][~] https://leetcode.com/problems/apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/
+Enumeration
+==========
+[3092-M][*/~] https://leetcode.com/problems/most-frequent-ids/
+SortedList
