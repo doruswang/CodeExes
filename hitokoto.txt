@@ -2983,3 +2983,16 @@ Enumeration
 ==========
 [3092-M][*/~] https://leetcode.com/problems/most-frequent-ids/
 SortedList
+
+240325 [2692/1776]
+[41-H][~] https://leetcode.com/problems/first-missing-positive/
+set()
+==========
+[2243-E][~] https://leetcode.com/problems/calculate-digit-sum-of-a-string/
+Simulation
+==========
+[2255-E][~] https://leetcode.com/problems/count-prefixes-of-a-given-string/
+Simulation
+==========
+[2259-E][~] https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/
+Enumeration
