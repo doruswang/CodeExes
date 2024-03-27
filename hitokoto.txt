@@ -2996,3 +2996,26 @@ Simulation
 ==========
 [2259-E][~] https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/
 Enumeration
+
+240326 [-]
+[3093-H][*/~] https://leetcode.com/problems/longest-common-suffix-queries/
+Trie
+==========
+[41-H][~] https://leetcode.com/problems/first-missing-positive/
+set()
+==========
+[2243-E][~] https://leetcode.com/problems/calculate-digit-sum-of-a-string/
+Simulation
+==========
+[2255-E][~] https://leetcode.com/problems/count-prefixes-of-a-given-string/description/
+Simulation
+==========
+[2259-E][~] https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/
+Enumeration
+
+240327 [2660/1752]
+[713-M][*/~] https://leetcode.com/problems/subarray-product-less-than-k/
+Sliding Window
+==========
+[2580-M][*/~] https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/
+Math
