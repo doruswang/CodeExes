@@ -3019,3 +3019,13 @@ Sliding Window
 ==========
 [2580-M][*/~] https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/
 Math
+
+240328 [2652/1746]
+[1997-M][*/~] https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/
+DP
+==========
+[2278-E][~] https://leetcode.com/problems/percentage-of-letter-in-string/
+Simulation
+==========
+[2269-E][~] https://leetcode.com/problems/find-the-k-beauty-of-a-number/
+Simulation
