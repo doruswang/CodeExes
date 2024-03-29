@@ -3029,3 +3029,13 @@ Simulation
 ==========
 [2269-E][~] https://leetcode.com/problems/find-the-k-beauty-of-a-number/
 Simulation
+
+240329 [2643/1736]
+[2908-E][~] https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/
+Simulation
+==========
+[2529-E][~] https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/
+Simulation
+==========
+[2515-E][~] https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/
+Simulation
