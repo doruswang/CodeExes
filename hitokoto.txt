@@ -3039,3 +3039,13 @@ Simulation
 ==========
 [2515-E][~] https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/
 Simulation
+
+240330 [2643/1727]
+[2535-E][~] https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/
+Simulation
+==========
+[2566-E][~] https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/
+Greedy
+==========
+[992-H][*/~] https://leetcode.com/problems/subarrays-with-k-different-integers/
+Sliding Window 
