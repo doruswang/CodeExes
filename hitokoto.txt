@@ -3048,4 +3048,19 @@ Simulation
 Greedy
 ==========
 [992-H][*/~] https://leetcode.com/problems/subarrays-with-k-different-integers/
-Sliding Window 
+Sliding Window
+
+240331 [2601/1714]
+[331-M][*&~] https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/
+Stack
+---
+Transformation
+==========
+[2595-E][~] https://leetcode.com/problems/number-of-even-and-odd-bits/
+Simulation
+==========
+[2614-E][~] https://leetcode.com/problems/number-of-even-and-odd-bits/
+Simulation
+==========
+[2639-E][~] https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/
+Simulation
