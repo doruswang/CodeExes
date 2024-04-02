@@ -3071,3 +3071,16 @@ Simulation
 ==========
 [2644-E][~] https://leetcode.com/problems/find-the-maximum-divisibility-score/
 Simulation
+
+240402 [2577/1683]
+[2899-E][~] https://leetcode.com/problems/last-visited-integers/
+Simulation
+==========
+[3099-E][~] https://leetcode.com/problems/harshad-number/
+Simulation
+==========
+[3095-E][*~] https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i/
+Enumeration
+==========
+[2900-E][*~] https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/
+Greedy
