@@ -3084,3 +3084,12 @@ Enumeration
 ==========
 [2900-E][*~] https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/
 Greedy
+
+240403 [2577/1666]
+[8-M][~] https://leetcode.com/problems/string-to-integer-atoi/
+Simulation
+RegEx
+==========
+[2877-E][~] https://leetcode.com/problems/create-a-dataframe-from-list/
+pandas
+Simulation
