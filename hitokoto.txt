@@ -3110,3 +3110,13 @@ Recursion
 ==========
 [12-M][*/~] https://leetcode.com/problems/integer-to-roman/
 Math
+
+240406 [2506/1645]
+[29-M][*/~] https://leetcode.com/problems/divide-two-integers/
+Bit Manipulation
+==========
+[1249-M][*/~] https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+Stack
+==========
+[LCP 02-E][*/~] https://leetcode.cn/problems/deep-dark-fraction/
+Math
