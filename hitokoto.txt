@@ -3120,3 +3120,10 @@ Stack
 ==========
 [LCP 02-E][*/~] https://leetcode.cn/problems/deep-dark-fraction/
 Math
+
+240407 [2503/1634]
+[678-M][*/~] https://leetcode.com/problems/valid-parenthesis-string/
+Greedy
+==========
+[1600-M][*/~] https://leetcode.com/problems/throne-inheritance/
+DFS
