@@ -3127,3 +3127,16 @@ Greedy
 ==========
 [1600-M][*/~] https://leetcode.com/problems/throne-inheritance/
 DFS
+
+240408 
+[31-M][*/~] https://leetcode.com/problems/next-permutation/
+Math
+==========
+[2878-E][~] https://leetcode.com/problems/get-the-size-of-a-dataframe/
+pandas
+==========
+[2879-E][~] https://leetcode.com/problems/display-the-first-three-rows/
+pandas
+==========
+[3105-E][~] https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/
+Simulation
