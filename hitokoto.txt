@@ -3140,3 +3140,10 @@ pandas
 ==========
 [3105-E][~] https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/
 Simulation
+
+240409
+[2880-E][~] https://leetcode.com/problems/select-data/
+pandas
+==========
+[2881-E][~] https://leetcode.com/problems/create-a-new-column/
+pandas
