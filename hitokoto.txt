@@ -3128,7 +3128,7 @@ Greedy
 [1600-M][*/~] https://leetcode.com/problems/throne-inheritance/
 DFS
 
-240408 
+240408 [-]
 [31-M][*/~] https://leetcode.com/problems/next-permutation/
 Math
 ==========
@@ -3141,9 +3141,19 @@ pandas
 [3105-E][~] https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/
 Simulation
 
-240409
+240409 [-]
 [2880-E][~] https://leetcode.com/problems/select-data/
 pandas
 ==========
 [2881-E][~] https://leetcode.com/problems/create-a-new-column/
 pandas
+
+240410 [2453/1617]
+[1702-M][*/~] https://leetcode.com/problems/maximum-binary-string-after-change/
+Greedy
+==========
+[950-M][*/~] https://leetcode.com/problems/reveal-cards-in-increasing-order/
+Simulation (deque())
+==========
+[LCP 07-E][*/~] https://leetcode.cn/problems/chuan-di-xin-xi/
+DFS/BFS/DP
