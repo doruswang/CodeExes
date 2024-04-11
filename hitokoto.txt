@@ -3157,3 +3157,10 @@ Simulation (deque())
 ==========
 [LCP 07-E][*/~] https://leetcode.cn/problems/chuan-di-xin-xi/
 DFS/BFS/DP
+
+240411 [2447/1614]
+[402-M][*&~] https://leetcode.com/problems/remove-k-digits/
+Monotonic Stack
+==========
+[1766-H][*/~] https://leetcode.com/problems/tree-of-coprimes/
+DFS
