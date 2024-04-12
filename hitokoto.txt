@@ -3164,3 +3164,10 @@ Monotonic Stack
 ==========
 [1766-H][*/~] https://leetcode.com/problems/tree-of-coprimes/
 DFS
+
+240412 [2437/1611]
+[3106-M][~] https://leetcode.com/problems/lexicographically-smallest-string-after-operations-with-constraint/
+Greedy
+==========
+[3107-M][~] https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k/
+Greedy
