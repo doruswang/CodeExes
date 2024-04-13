@@ -3171,3 +3171,10 @@ Greedy
 ==========
 [3107-M][~] https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k/
 Greedy
+
+240413 [2428/1604]
+[3108-H][*&~] https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/
+DSU
+==========
+[85-H][*/~] https://leetcode.com/problems/maximal-rectangle/
+Monotonic Stack
