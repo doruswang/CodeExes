@@ -3178,3 +3178,10 @@ DSU
 ==========
 [85-H][*/~] https://leetcode.com/problems/maximal-rectangle/
 Monotonic Stack
+
+240414 [2418/1600]
+[3110-E][~] https://leetcode.com/problems/score-of-a-string/
+Simulation
+==========
+[3111-M][~] https://leetcode.com/problems/minimum-rectangles-to-cover-points/
+Greedy
