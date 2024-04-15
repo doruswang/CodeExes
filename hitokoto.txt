@@ -3185,3 +3185,10 @@ Simulation
 ==========
 [3111-M][~] https://leetcode.com/problems/minimum-rectangles-to-cover-points/
 Greedy
+
+240415 []
+[3114-E][~] https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/
+Greedy
+==========
+[3115-M][~] https://leetcode.com/problems/maximum-prime-difference/
+Simulation
