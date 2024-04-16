@@ -3186,9 +3186,17 @@ Simulation
 [3111-M][~] https://leetcode.com/problems/minimum-rectangles-to-cover-points/
 Greedy
 
-240415 []
+240415 [-]
 [3114-E][~] https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/
 Greedy
 ==========
 [3115-M][~] https://leetcode.com/problems/maximum-prime-difference/
 Simulation
+
+
+240416 [2399/1592]
+[924-H][*/~] https://leetcode.com/problems/minimize-malware-spread/
+DFS/DSU
+==========
+[623-M][*/~] https://leetcode.com/problems/add-one-row-to-tree/
+DFS
