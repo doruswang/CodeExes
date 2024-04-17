@@ -3193,10 +3193,16 @@ Greedy
 [3115-M][~] https://leetcode.com/problems/maximum-prime-difference/
 Simulation
 
-
 240416 [2399/1592]
 [924-H][*/~] https://leetcode.com/problems/minimize-malware-spread/
 DFS/DSU
 ==========
 [623-M][*/~] https://leetcode.com/problems/add-one-row-to-tree/
 DFS
+
+240417 [2394/1585]
+[988-M][*/~] https://leetcode.com/problems/smallest-string-starting-from-leaf/
+DFS
+==========
+[928-H][*/~] https://leetcode.com/problems/minimize-malware-spread-ii/
+BFS
