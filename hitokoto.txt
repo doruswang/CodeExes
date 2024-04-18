@@ -3206,3 +3206,10 @@ DFS
 ==========
 [928-H][*/~] https://leetcode.com/problems/minimize-malware-spread-ii/
 BFS
+
+240418 [2378/1578]
+[2007-M][*/~] https://leetcode.com/problems/find-original-array-from-doubled-array/
+Greedy
+==========
+[3112-M][*/~] https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/
+Dijkstra
