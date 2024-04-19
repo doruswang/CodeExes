@@ -3213,3 +3213,10 @@ Greedy
 ==========
 [3112-M][*/~] https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/
 Dijkstra
+
+240419 []
+[1883-H][*/~] https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/
+DP
+==========
+[200-M][*/~] https://leetcode.com/problems/number-of-islands/
+DFS
