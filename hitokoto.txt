@@ -3214,9 +3214,16 @@ Greedy
 [3112-M][*/~] https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/
 Dijkstra
 
-240419 []
+240419 [-]
 [1883-H][*/~] https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/
 DP
 ==========
 [200-M][*/~] https://leetcode.com/problems/number-of-islands/
 DFS
+
+240420 [2364/1563]
+[1992-M][~] https://leetcode.com/problems/find-all-groups-of-farmland/
+Enumeration
+==========
+[39-M][~] https://leetcode.cn/problems/combination-sum/
+Backtracking
