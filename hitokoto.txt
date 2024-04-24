@@ -3239,3 +3239,6 @@ BFS
 240423 [2350/1557]
 [1052-M][*/~] https://leetcode.com/problems/grumpy-bookstore-owner/
 Sliding Window
+
+240424 [2342/1555]
+---
