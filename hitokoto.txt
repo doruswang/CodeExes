@@ -3257,4 +3257,9 @@ DP
 ---
 
 240429 [2368/1563]
----
+[1329-M][*/~] https://leetcode.com/problems/sort-the-matrix-diagonally/
+Heap
+
+240430 [2364/1561]
+[1915-M][*/~] https://leetcode.com/problems/number-of-wonderful-substrings/
+Bitmasks
