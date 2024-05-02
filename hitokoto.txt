@@ -3266,3 +3266,7 @@ Bitmasks
 
 240501 [2358/1559]
 ---
+
+240502 [2360/1562]
+[857-H][*/~] https://leetcode.com/problems/minimum-cost-to-hire-k-workers/
+Heap
