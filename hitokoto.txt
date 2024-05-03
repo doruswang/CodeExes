@@ -3270,3 +3270,7 @@ Bitmasks
 240502 [2360/1562]
 [857-H][*/~] https://leetcode.com/problems/minimum-cost-to-hire-k-workers/
 Heap
+
+240503 [2360/1560]
+[165-M][*/~] https://leetcode.com/problems/compare-version-numbers/
+Simulation
