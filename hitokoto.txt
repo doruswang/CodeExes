@@ -3277,3 +3277,7 @@ Simulation
 
 240504 [2354/1559]
 ---
+
+240505 [2354/1560]
+[237-M][*/~] https://leetcode.com/problems/delete-node-in-a-linked-list/
+Simulation
