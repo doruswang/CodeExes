@@ -3281,3 +3281,7 @@ Simulation
 240505 [2354/1560]
 [237-M][*/~] https://leetcode.com/problems/delete-node-in-a-linked-list/
 Simulation
+
+240506 [2357/1559]
+[741-H][*/~] https://leetcode.com/problems/cherry-pickup/
+DP
