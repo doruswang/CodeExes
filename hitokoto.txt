@@ -3288,3 +3288,7 @@ DP
 
 240507 [2354/1557] (LK解答题目数量显示改版)
 ---
+
+240508 [2356/1560]
+[2079-M][*/~] https://leetcode.com/problems/watering-plants/
+Simulation
