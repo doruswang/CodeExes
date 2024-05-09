@@ -3292,3 +3292,7 @@ DP
 240508 [2356/1560]
 [2079-M][*/~] https://leetcode.com/problems/watering-plants/
 Simulation
+
+240509 [2353/1558]
+[2105-M][*/~] https://leetcode.com/problems/watering-plants-ii/
+Two Pointers
