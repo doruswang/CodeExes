@@ -3296,3 +3296,7 @@ Simulation
 240509 [2353/1558]
 [2105-M][*/~] https://leetcode.com/problems/watering-plants-ii/
 Two Pointers
+
+240510 [2353/1556]
+[786-M][*/~] https://leetcode.com/problems/k-th-smallest-prime-fraction/
+Heap
