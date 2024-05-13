@@ -3307,3 +3307,7 @@ Heap
 240512 [2357/1556]
 [1553-H][*/~] https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/
 DP
+
+240513 [2353/1559]
+[861-M][*/~] https://leetcode.com/problems/score-after-flipping-matrix/
+Greedy
