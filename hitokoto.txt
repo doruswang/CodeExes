@@ -3311,3 +3311,7 @@ DP
 240513 [2353/1559]
 [861-M][*/~] https://leetcode.com/problems/score-after-flipping-matrix/
 Greedy
+
+240514 [2353/1556]
+[1219-M][*/~] https://leetcode.com/problems/path-with-maximum-gold/
+Backtracking
