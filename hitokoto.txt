@@ -3315,3 +3315,7 @@ Greedy
 240514 [2353/1556]
 [1219-M][*/~] https://leetcode.com/problems/path-with-maximum-gold/
 Backtracking
+
+240515 [2348/1554]
+[2589-H][*/~] https://leetcode.com/problems/minimum-time-to-complete-all-tasks/
+Greedy
