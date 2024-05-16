@@ -3319,3 +3319,7 @@ Backtracking
 240515 [2348/1554]
 [2589-H][*/~] https://leetcode.com/problems/minimum-time-to-complete-all-tasks/
 Greedy
+
+240516 [2345/1556]
+[1953-M][*/~] https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work/
+Math
