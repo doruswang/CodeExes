@@ -3323,3 +3323,10 @@ Greedy
 240516 [2345/1556]
 [1953-M][*/~] https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work/
 Math
+
+240517 [2345/1549]
+[1325-M][*/~] https://leetcode.com/problems/delete-leaves-with-a-given-value/
+Recursion
+==========
+[826-M][*/~] https://leetcode.com/problems/most-profit-assigning-work/
+Two Pointers
