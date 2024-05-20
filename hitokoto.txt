@@ -3336,3 +3336,7 @@ Two Pointers
 
 240519 [2336/1544]
 ---
+
+240520 [2340/1549]
+[1542-H][*/~] https://leetcode.com/problems/find-longest-awesome-substring/
+DP
