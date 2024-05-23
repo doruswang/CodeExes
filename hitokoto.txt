@@ -3347,3 +3347,6 @@ DFS
 
 240521 [2333/1547]
 ---
+
+240522 [2333/1548]
+[2597-M][*/~] https://leetcode.com/problems/the-number-of-beautiful-subsets/
