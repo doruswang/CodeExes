@@ -3372,3 +3372,7 @@ Transformation
 240527 [2326/1546]
 [2028-M][*/~] https://leetcode.com/problems/find-missing-observations/
 Math
+
+240528 [2326/1541]
+[1208-M][*/~] https://leetcode.com/problems/get-equal-substrings-within-budget/
+Sliding Window
