@@ -3376,3 +3376,7 @@ Math
 240528 [2326/1541]
 [1208-M][*/~] https://leetcode.com/problems/get-equal-substrings-within-budget/
 Sliding Window
+
+240529 [2321/1539]
+[1404-M][*/~] https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/
+Simulation
