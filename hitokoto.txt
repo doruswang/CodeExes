@@ -3380,3 +3380,7 @@ Sliding Window
 240529 [2321/1539]
 [1404-M][*/~] https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/
 Simulation
+
+240530 [2319/1540]
+[1442-M][*/~] https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/
+Math
