@@ -3384,3 +3384,6 @@ Simulation
 240530 [2319/1540]
 [1442-M][*/~] https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/
 Math
+
+240531 [2316/1537]
+---
