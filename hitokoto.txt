@@ -3402,3 +3402,10 @@ Math
 
 230605 [2327/1550]
 ---
+
+230606 [2327/1553]
+[846-M][*/~] https://leetcode.com/problems/hand-of-straights/
+Sorting + Counter()
+==========
+[1296-M][*/~] https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/
+Sorting + Counter()
