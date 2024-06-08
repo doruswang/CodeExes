@@ -3410,5 +3410,13 @@ Sorting + Counter()
 [1296-M][*/~] https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/
 Sorting + Counter()
 
+230607 [-] 
 [648-M][*/~] https://leetcode.com/problems/replace-words/
 set()
+
+230608 []
+[3040-M][*/~] https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-ii/
+DFS
+==========
+[1547-M][*/~] https://leetcode.com/problems/continuous-subarray-sum/
+Hash Table
