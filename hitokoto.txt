@@ -3400,23 +3400,30 @@ Math
 240604 [2324/1544]
 ---
 
-230605 [2327/1550]
+240605 [2327/1550]
 ---
 
-230606 [2327/1553]
+240606 [2327/1553]
 [846-M][*/~] https://leetcode.com/problems/hand-of-straights/
 Sorting + Counter()
 ==========
 [1296-M][*/~] https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/
 Sorting + Counter()
 
-230607 [-] 
+240607 [-] 
 [648-M][*/~] https://leetcode.com/problems/replace-words/
 set()
 
-230608 [2315/1547]
+240608 [2315/1547]
 [3040-M][*/~] https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-ii/
 DFS
 ==========
 [1547-M][*/~] https://leetcode.com/problems/continuous-subarray-sum/
 Hash Table
+
+240609 [-]
+[312-M][*/~] https://leetcode.com/problems/burst-balloons/
+DP
+
+240610 [2307/1541]
+---
