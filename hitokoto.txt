@@ -3445,3 +3445,6 @@ Counting
 
 240615 [2307/1547]
 ---
+
+240616 [2301/]
+[2288-M][*/~] https://leetcode.com/problems/apply-discount-to-prices/
