@@ -3449,3 +3449,7 @@ Counting
 240616 [2301/1541]
 [2288-M][*/~] https://leetcode.com/problems/apply-discount-to-prices/
 Simulation
+
+240617 [2297/1547]
+[1482-M][*/~] https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
+Binary Search
