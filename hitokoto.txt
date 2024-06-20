@@ -3453,3 +3453,7 @@ Simulation
 240617 [2297/1547]
 [1482-M][*/~] https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 Binary Search
+
+240617 [2297/1546]
+[1482-M][*/~] https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
+Binary Search
