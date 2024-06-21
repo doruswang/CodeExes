@@ -3454,6 +3454,17 @@ Simulation
 [1482-M][*/~] https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 Binary Search
 
-240617 [2297/1546]
+240618 [2297/1546]
 [1482-M][*/~] https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 Binary Search
+
+240619 [-]
+---
+
+240620 [-]
+[1552-M][*/~] https://leetcode.cn/problems/magnetic-force-between-two-balls/
+Binary Search
+
+240621 [2293/1546]
+[LCP-61][*/~] https://leetcode.cn/problems/6CE719/
+Simulation
