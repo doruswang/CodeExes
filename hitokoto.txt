@@ -3468,3 +3468,10 @@ Binary Search
 240621 [2293/1546]
 [LCP-61][*/~] https://leetcode.cn/problems/6CE719/
 Simulation
+
+240622 [2299/1539]
+[1248-M][*/~] https://leetcode.com/problems/count-number-of-nice-subarrays/
+Prefix Sum
+==========
+[2663-H][*/~] https://leetcode.com/problems/lexicographically-smallest-beautiful-string/
+Greedy
