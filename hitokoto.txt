@@ -3475,3 +3475,7 @@ Prefix Sum
 ==========
 [2663-H][*/~] https://leetcode.com/problems/lexicographically-smallest-beautiful-string/
 Greedy
+
+240623 [2292/1534]
+[1438-M][*/~] https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/
+Sliding Window
