@@ -3479,3 +3479,10 @@ Greedy
 240623 [2292/1534]
 [1438-M][*/~] https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/
 Sliding Window
+
+240624 [2292/1534]
+[503-M][*/~] https://leetcode.com/problems/next-greater-element-ii/
+Monotonic Stack
+==========
+[995-M][*/~] https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/
+Sliding Window
