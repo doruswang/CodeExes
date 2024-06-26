@@ -3489,3 +3489,7 @@ Sliding Window
 
 240625 [2284/1526]
 ---
+
+240626 [2286/1528]
+[1382-M][*/~] https://leetcode.com/problems/balance-a-binary-search-tree/
+Inorder Traversal
