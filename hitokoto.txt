@@ -3500,3 +3500,25 @@ Inorder Traversal
 240628 [2282/1529]
 [2285-M][*/~] https://leetcode.com/problems/maximum-total-importance-of-roads/
 Math
+
+240629 [-]
+---
+
+240630 [-]
+---
+
+240701 [-]
+[2065-M][*/~] https://leetcode.com/problems/maximum-path-quality-of-a-graph/
+DFS
+
+240702 [-]
+---
+
+240703 [2279/1524]
+[1509-M][*/~] https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/
+Transformation
+
+
+
+
+
